@@ -36,29 +36,29 @@ Des choses très prometteuses ont été annoncées lors de cette conférence. Pa
 - SASS activé par défaut.
 - Augmentation des éléments modifiables via les variables SASS.
 - Utilisations des maps pour gérer les groupes de variables SASS :
-    ```
-        $light:                           #fff !default;
-        $stable:                          #f8f8f8 !default;
-        $positive:                        #387ef5 !default;
-        $calm:                            #11c1f3 !default;
-        $balanced:                        #33cd5f !default;
-        $energized:                       #ffc900 !default;
-        $assertive:                       #ef473a !default;
-        $royal:                           #886aea !default;
-        $dark:                            #444 !default;
-    ```
-    devient
-    ```
-        $colors: (
+<pre>
+$light:                           #fff !default;
+$stable:                          #f8f8f8 !default;
+$positive:                        #387ef5 !default;
+$calm:                            #11c1f3 !default;
+$balanced:                        #33cd5f !default;
+$energized:                       #ffc900 !default;
+$assertive:                       #ef473a !default;
+$royal:                           #886aea !default;
+$dark:                            #444 !default;
+</pre>
+devient
+<pre>
+$colors: (
 
-          primary:    #387ef5,
-          secondary:  #32db64,
-          danger:     #f53d3d,
-          light:      #f4f4f4,
-          dark:       #222,
+  primary:    #387ef5,
+  secondary:  #32db64,
+  danger:     #f53d3d,
+  light:      #f4f4f4,
+  dark:       #222,
 
-        );
-    ```
+);
+</pre>
 
 ## Animations
 - Utilisation de la Web animation API ([normée par le W3C](https://w3c.github.io/web-animations/)) pour gérer les animations.
