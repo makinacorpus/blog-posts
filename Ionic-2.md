@@ -97,4 +97,4 @@ Des choses très prometteuses ont été annoncées lors de cette conférence. Pa
 
 Vous pouvez d'ores et déjà tester [la version 2.alpha disponible ici](http://ionicframework.com/docs/v2/) !
 
-Et biensure la vidéo de la conférence est disponible sur Youtube : [AngularConnect - Building cross-platform apps with Ionic 2](https://youtu.be/43vanF4YwRI?t=47m20s)
+Et bien sûr la vidéo de la conférence est disponible sur Youtube : [AngularConnect - Building cross-platform apps with Ionic 2](https://youtu.be/43vanF4YwRI?t=47m20s)
