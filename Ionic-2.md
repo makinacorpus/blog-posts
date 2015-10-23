@@ -93,6 +93,6 @@ Au sein des nombreuses merveilleuses conférences d'AngularConnect, nous avons e
 ## Nos impressions
 Des choses très prometteuses ont été annoncées lors de cette conférence. Parmi elles nous retiendrons particulièrement la *simplification du scripting et du templating*, le passage à la *WAPI pour les animations*, et le *changement du système de routing*. Ces 3 points à eux seuls résolvent des problèmes récurrents et assez importants que l'on recontre dans la v1 d'Ionic. Autant dire que couplé à l'augmentation perpétuelle des performances mobiles, l'hybride à de beaux jours devant lui !
 
-Vous pouvez dors et déjà tester [la version 2.alpha disponible ici](http://ionicframework.com/docs/v2/) !
+Vous pouvez d'ores et déjà tester [la version 2.alpha disponible ici](http://ionicframework.com/docs/v2/) !
 
-Et biensure la vidéo de la conférence est disponible sur Youtube : [AngularConnect - Building cross-platform apps with Ionic 2](https://youtu.be/43vanF4YwRI?t=47m20s)
+Et bien sûr la vidéo de la conférence est disponible sur Youtube : [AngularConnect - Building cross-platform apps with Ionic 2](https://youtu.be/43vanF4YwRI?t=47m20s)
