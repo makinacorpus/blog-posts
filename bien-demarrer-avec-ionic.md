@@ -158,13 +158,19 @@ $ ionic emulate ios
 
 Pour déployer sur un périphérique de test, cela diffère selon la plateforme :
 
+Pour **Android** :
 ```
 $ ionic run android
 ```
 
 _Cette commande lancera la version debug de notre application sur le premier périphérique trouvé, et si aucun n'est trouvé sur un émulateur._
 
-Pour iOS, il faut ouvrir le fichier XCode généré dans le dossier `platforms/ios` avec XCode lui-même, puis sélectionner le périphérique souhaité via l'interface et cliquer sur le bouton `Play`.
+Pour **iOS**, vous avez deux solutions :
+- Ouvrir le fichier XCode généré dans le dossier `platforms/ios` avec XCode lui-même, puis sélectionner le périphérique souhaité via l'interface et cliquer sur le bouton `Play`.
+- Installer le packet npm [ios-deploy](https://www.npmjs.com/package/ios-deploy) en global afin de pouvoir lancer directement l'application sur le périphérique via la commande :
+```
+    ionic run ios --device
+```
 
 ### Tester une application Ionic
 Il est important de noter que l'APK généré par le packaging Android peut être envoyé à n'importe qui pour être testé sur son propre appareil mobile. Cet APK se trouve dans `platforms/android/build/outputs/apk/android-debug.apk`
