@@ -205,7 +205,7 @@ Pour Chromium, les outils sont disponibles via [`chrome://inspect/#service-worke
 
 Pour Firefox, ils sont disponibles via [`about:serviceworkers`](about:serviceworkers).
 
-Vous pouvez également tester les mode offline comme vu plus haut avec : pour [Firefox](https://support.mozilla.org/en-US/questions/895486) ou pour [Chromium](http://stackoverflow.com/questions/16091243/does-chrome-have-a-work-offline-option).
+Les dev tools vous permettent également de tester les mode offline de votre web app comme vu plus haut avec : pour [Firefox](https://support.mozilla.org/en-US/questions/895486) ou pour [Chromium](http://stackoverflow.com/questions/16091243/does-chrome-have-a-work-offline-option).
 
 ## Annexes
 
