@@ -35,15 +35,15 @@ Profitez de l'[Offline Cookbook](https://jakearchibald.com/2014/offline-cookbook
 - Visiter l'application [https://mdn.github.io/sw-test/](https://mdn.github.io/sw-test/).
 - Retrouver le code de l'application [https://github.com/mdn/sw-test](https://github.com/mdn/sw-test)
 
-### Le fichier [html](https://github.com/mdn/sw-test/blob/gh-pages/index.html)
+### Le fichier html ([source](https://github.com/mdn/sw-test/blob/gh-pages/index.html))
 
 L'application charge trois ressources : un fichier de style css, un fichier contenant les données et un fichiers javascript pour générer la page.
 
-### Le fichier de [données](https://github.com/mdn/sw-test/blob/gh-pages/image-list.js)
+### Le fichier de données ([source](https://github.com/mdn/sw-test/blob/gh-pages/image-list.js))
 
 Le fichier déclare une variable dans [le scope global](http://makina-corpus.com/blog/metier/2015/bien-demarrer-avec-javascript#le-scope-global) contenant une liste d'images avec pour chacune : un nom, un texte alternatif, une url et une attribution.
 
-### Le fichier [app.js](https://github.com/mdn/sw-test/blob/gh-pages/app.js)
+### Le fichier app.js ([source](https://github.com/mdn/sw-test/blob/gh-pages/app.js))
 
 Le premier bloc enregistre le Service Worker avec le code suivant :
 
@@ -63,7 +63,7 @@ La suite du script récupère le fichier de données et crée pour chacune des e
 
 Ici, rien de particulier, une [requête ajax](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Using_XMLHttpRequest) récupère les données et l'API [`document.createElement`](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement) permet de créer les différents éléments HTML et de les insérer dans la balise `<section>` du fichier `index.html`.
 
-### [Le Service Worker](https://github.com/mdn/sw-test/blob/gh-pages/sw.js)
+### Le Service Worker ([source](https://github.com/mdn/sw-test/blob/gh-pages/sw.js))
 
 Au premier appel du Service Worker, ce dernier est installé dans le navigateur de l'utilisateur grâce à :
 
@@ -201,9 +201,9 @@ this.addEventListener('activate', function(event) {
 
 Les navigateurs qui implémentent le nécessaire aux Service Workers ajoutent quelques outils pour les lister, les debugger, les démarrer, les stopper, les désinscrire (__unregister__).
 
-Pour Chromium, les outils sont disponibles via [chrome://inspect/#service-workers](chrome://inspect/#service-workers) et [chrome://serviceworker-internals](chrome://serviceworker-internals).
+Pour Chromium, les outils sont disponibles via [`chrome://inspect/#service-workers`](chrome://inspect/#service-workers) et [`chrome://serviceworker-internals`](chrome://serviceworker-internals).
 
-Pour Firefox, ils sont disponibles via [about:serviceworkers](about:serviceworkers).
+Pour Firefox, ils sont disponibles via [`about:serviceworkers`](about:serviceworkers).
 
 Vous pouvez également tester les mode offline comme vu plus haut avec : pour [Firefox](https://support.mozilla.org/en-US/questions/895486) ou pour [Chromium](http://stackoverflow.com/questions/16091243/does-chrome-have-a-work-offline-option).
 
@@ -217,7 +217,7 @@ Enfin voici quelques ressources pour aller plus loin.
 - Service Worker API, [Mozilla Developer Network](https://developer.mozilla.org/en-US/) : [https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API)
 - Using Service Workers, [MDN](https://developer.mozilla.org/en-US/) : [https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers)
 - Service Worker test repository, [MDN](https://developer.mozilla.org/en-US/) : [https://github.com/mdn/sw-test](https://github.com/mdn/sw-test)
-- Can I Use Service Workers?, [Alexis Deveria](http://twitter.com/Fyrd) : http://caniuse.com/#search=service%20worker
+- Can I Use Service Workers?, [Alexis Deveria](http://twitter.com/Fyrd) : [http://caniuse.com/#search=service%20worker](http://caniuse.com/#search=service%20worker)
 - Getting started with Service Workers, [Ritesh Kumar](https://twitter.com/ritz078) : [http://www.sitepoint.com/getting-started-with-service-workers/](http://www.sitepoint.com/getting-started-with-service-workers/)
 - Is Service Worker ready?, [Jake Archibald](https://twitter.com/jaffathecake) : [https://jakearchibald.github.io/isserviceworkerready/resources.html](https://jakearchibald.github.io/isserviceworkerready/resources.html)
 - Une nouvelle architecture pour nos applications web mobiles, [Julien Wajsberg](https://twitter.com/jwajsberg) : [http://www.24joursdeweb.fr/2015/une-nouvelle-architecture-pour-nos-applications-web-mobiles/](http://www.24joursdeweb.fr/2015/une-nouvelle-architecture-pour-nos-applications-web-mobiles/)
