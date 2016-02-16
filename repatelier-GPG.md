@@ -1,18 +1,18 @@
-Nous avons accueilli Ludovic Hirlimann, développeur chez Mozilla dans l'équipe Thunderbird, pour nous parler de GPG. Autour d'un repas, il nous a présenté les intérêts des signatures sécurisées PGP, l'utilisation de l'outil GPG pour gérer son trousseau de clés et fait une petite démonstration de signature croisée de clés.
+Nous avons accueilli Ludovic Hirlimann, développeur chez Mozilla dans l'équipe Thunderbird, pour nous parler de OpenGPG. Autour d'un repas, il nous a présenté les intérêts des signatures sécurisées PGP, l'utilisation de l'outil GPG pour gérer son trousseau de clés et fait une petite démonstration de signature croisée de clés.
 
 # Pourquoi signer ?
 
-Nous n'avons pas besoin d'avoir de grands pouvoirs pour avoir de grande responsabilité. Et quand Ludovic nous explique que si tout le monde signait ses emails, il y aurait moins de spam, _phishing_ (hameçonage) compris, l'intérêt est explicit. ![](https://upload.wikimedia.org/wikipedia/en/7/7a/MontySpam.jpg)
+Nous n'avons pas besoin d'avoir de grands pouvoirs pour avoir de grande responsabilité. Et quand Ludovic nous explique que si tout le monde signait ses emails, il y aurait moins de spam, _phishing_ (hameçonage) compris, l'intérêt est explicite. ![](https://upload.wikimedia.org/wikipedia/en/7/7a/MontySpam.jpg)
 
-Mais sans forcément virer dans l'utopie, l'intérêt d'une signature PGP est la même que celle d'un certificat SSL : avoir confiance dans l'auteur du contenu. Et pour un éditeur de logiciel, pour des développeurs, ça peut être très utile de propager confiance et assurance.
+Mais sans forcément virer dans l'utopie, l'intérêt d'une signature PGP est la même que celle d'un certificat SSL : avoir confiance en l'auteur du contenu. Et pour un éditeur de logiciel, pour des développeurs, ça peut être très utile de propager confiance et assurance.
 
-Avec une paire de clés PGP, il est également possible de proposer à n'importe qui de nous envoyer un message chiffré que nous serons les seuls à pouvoir lire. Les tentatives de contrôle d'internet des pays les plus républicains sont une démonstration de l'utilité de ce genre de prévention. Les lanceurs d'alerte ne savaient pas qu'ils allaient l'être avant de se retrouver dans de sales draps. Nos correspondants peuvent avoir n'importe quelle raison pour vous contacter avec un message chiffré et si nous leur proposons de le faire, c'est déjà ça.
+Avec une paire de clés PGP, il est également possible de proposer à n'importe qui de nous envoyer un message chiffré que nous serons les seuls à pouvoir lire. Les tentatives de contrôle d'internet des pays même les plus _républicains_ sont une démonstration de l'utilité de ce genre de prévention. Les lanceurs d'alerte ne savaient pas qu'ils allaient l'être avant de se retrouver dans de sales draps. Nos correspondants peuvent avoir n'importe quelle raison pour vous contacter avec un message chiffré et si nous leur laissons la possibilité de le faire, c'est déjà ça.
 
-# PGP, GPG ? C'est un peu compliqué
+# PGP, OpenPGP, GPG ? C'est un peu compliqué
 
-PGP veut dire _Pretty Good Privacy_, c'est le premier programme qui a permis de définir le standard OpenPGP. PGP comme son standard ont été  proposé par [Phil Zimmermann](https://en.wikipedia.org/wiki/Pretty_Good_Privacy) entre 1991 et 1997. PGP appartient maintenant à [Symantec](https://www.symantec.com/products/information-protection/encryption).
+**PGP** veut dire _Pretty Good Privacy_, c'est le premier programme qui a permis de définir le standard **[OpenPGP](https://fr.wikipedia.org/wiki/OpenPGP)**. [PGP](https://fr.wikipedia.org/wiki/Pretty_Good_Privacy) comme son standard a été proposé par [Phil Zimmermann](https://fr.wikipedia.org/wiki/Philip_Zimmermann) entre 1991 et 1997. PGP appartient maintenant à [Symantec](https://www.symantec.com/products/information-protection/encryption).
 
-La fondation de Richard Stallman Free Software Foundation a proposé sa propre implémentation du standard OpenPGP appelée _GNU PRivacy Guard_ ou GPG. C'est donc cette implémentation qu'il est recommandé d'utiliser puisque son développement est actif et que son code est ouvert et libre.
+La fondation de [Richard Stallman](https://fr.wikipedia.org/wiki/Richard_Stallman) [Free Software Foundation](https://fr.wikipedia.org/wiki/Free_Software_Foundation) a proposé sa propre implémentation du standard OpenPGP appelée _GNU PRivacy Guard_ ou **GPG**. C'est donc cette implémentation qu'il est recommandé d'utiliser puisque son développement est actif et que son code est ouvert et libre.
 
 # Comment ça marche ?
 
@@ -22,9 +22,9 @@ Le chiffrement asymétrique est au centre d'OpenPGP. L'idée est la suivante :
 2. nous publions la clé publique à qui veut ;
 3. nous gardons précieusement la clé privée.
 
-Lorsque quelqu'un voudra nous envoyer un message que nous serons les seuls à pouvoir lire, il chiffrera son contenu avec notre clé publique. Seule la clé privée assortie pourra déchiffrer ce message.
+Lorsque quelqu'un voudra nous envoyer un message que nous serons les seuls à pouvoir lire, il en chiffrera le contenu avec notre clé publique. Seule notre clé privée permettra de déchiffrer ce message.
 
-Autre cas d'utilisation : si nous voulons certifier que nous sommes l'expéditeur d'un message, nous pouvons créer une empreinte du contenu avec notre clé privée. Le destinataire pourra faire de même avec le contenu reçu. Si il y a une correspondance entre les deux empreintes, le destinataire pourra être sûr de deux choses : c'est notre clé privée qui a permis de créer cette empreinte __et__ le contenu du message est le même que celui que nous avons envoyé (personne ne l'a altéré).
+Autre cas d'utilisation : si nous voulons certifier que nous sommes l'expéditeur d'un message, nous pouvons créer une empreinte du contenu, et la chiffrer avec notre clé privée, c'est la signature à proprement parler. Le destinataire pourra également de son coté générer un empreinte et la comparer à celle qu'il optient en dechiffrant la signature. Si il y a correspondance entre les deux empreintes, le destinataire pourra être sûr de deux choses : c'est notre clé privée qui a permis de signer ce message __et__ le contenu du message est le même que celui que nous avons envoyé (personne ne l'a altéré).
 
 # Et en pratique
 
@@ -50,7 +50,7 @@ Lançons la commande de génération de clés :
 gpg --gen-key
 ```
 
-Depuis gnupg 1.4.0+, l'option par défaut est "RSA", quelle que soit la version que vous utilisez, il faut choisir la génération d'une clé RSA.
+Depuis GnuPG 1.4.0+, l'option par défaut est "RSA", quelle que soit la version que vous utilisez, il faut choisir la génération d'une clé RSA.
 
 Renseignons les informations que GPG nous demande (Nom réel, adresse mail et commentaire) et validons ces informations. GPG nous demande alors de choisir une _passphrase_, c'est à dire un mot de passe permettant de protéger notre clé privée.
 
@@ -66,7 +66,7 @@ uid                  Ana Beatriz Guerrero López <ana@ekaia.org>
 
 ## Ajouter un autre UID
 
-Pour ajouter une autre adresse mail à notre jeu de clé :
+Pour ajouter une autre adresse mail (une autre identité) à notre jeu de clé :
 
 ```
 gpg --edit-key 0x6AA15948
