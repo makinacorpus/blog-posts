@@ -24,7 +24,7 @@ Le chiffrement asymétrique est au centre d'OpenPGP. L'idée est la suivante :
 
 Lorsque quelqu'un voudra nous envoyer un message que nous serons les seuls à pouvoir lire, il en chiffrera le contenu avec notre clé publique. Seule notre clé privée permettra de déchiffrer ce message.
 
-Autre cas d'utilisation : si nous voulons certifier que nous sommes l'expéditeur d'un message, nous pouvons créer une empreinte du contenu, et la chiffrer avec notre clé privée, c'est la signature à proprement parler. Le destinataire pourra également de son coté générer un empreinte et la comparer à celle qu'il optient en dechiffrant la signature. Si il y a correspondance entre les deux empreintes, le destinataire pourra être sûr de deux choses : c'est notre clé privée qui a permis de signer ce message __et__ le contenu du message est le même que celui que nous avons envoyé (personne ne l'a altéré).
+Autre cas d'utilisation : si nous voulons certifier que nous sommes l'expéditeur d'un message, nous pouvons créer une empreinte du contenu, et la chiffrer avec notre clé privée, c'est ce qu'on appellera la signature à proprement parler. Le destinataire pourra également de son coté générer un empreinte et la comparer à celle qu'il obtient en déchiffrant la signature. Si il y a correspondance entre les deux empreintes, le destinataire pourra être sûr de deux choses grâce à cette signature numérique : c'est notre clé privée qui a permis de générer l'empreinte chiffrée du message __et__ le contenu du message est le même que celui que nous avons envoyé (personne ne l'a altéré).
 
 # Et en pratique
 
