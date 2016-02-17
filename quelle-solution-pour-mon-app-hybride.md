@@ -41,7 +41,8 @@ Ionic est aujourd'hui l'un des frameworks les plus en vogue pour faire des appli
 
 
 ## React Native : le cousin des states
-
+React native est le penchant mobile du framework de Facebook, React. Encore en cours de finalisation, il apporte une autre réponse au fameux mythe du "écrire une fois et déployer partout". 
+L'intérêt principal est qu'il utilise la même syntaxe que React, et permet donc, modulo les éléments spécifiques aux plateformes mobiles, de réutiliser le code pour une version desktop, tout en créant des versions natives pour Android et IOS. Il devient d'ailleurs même envisageable, avec un peu de réécriture, de l'associer à un cordova pour le déployer sur d'autres plateformes que celles supportées par le framework.
 
 ### Points positifs :
 * Performances natives
