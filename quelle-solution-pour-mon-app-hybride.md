@@ -54,3 +54,7 @@ L'intérêt principal est qu'il utilise la même bibliothèque (donc même synta
 * Framework jeune ;
 * Compatibilité Android partielle ;
 * N'est pas du web à proprement parlé et donc demande une adaptation pour les développeurs.
+
+
+Bien sûre, il existe d'autres frameworks, et l'envie de les tester ne manque pas ! Ceux présentés dans cet article sont largement utilisés, et nous avons eu la chance de pouvoir nous même en faire l'usage.
+Si jamais vous avez des expériences à partager avec la communauté, n'hésitez pas à nous écrire un petit mot !
