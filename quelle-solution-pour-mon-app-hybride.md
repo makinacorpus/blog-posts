@@ -1,11 +1,11 @@
 # Quelle solution pour mon application hybride ?
 
-Le Javascript avance, et vite. C'est un peu le leitmotiv du développement front-end depuis quelques années. Une conséquence est cela est là : l'essort des applications mobiles hybrides et des solutions diverses et variées y répondant.
+Le Javascript avance, et vite. C'est un peu le leitmotiv du développement front-end depuis quelques années. Une conséquence est cela est là : l'essor des applications mobiles hybrides et des solutions diverses et variées y répondant.
 
 Je vous propose un petit tour d'horizon des grandes solutions gratuites disponibles en ce début 2016, avec leurs avantages et inconvénients respectifs.
 
 ## Cordova : le senior
-Cordova est là depuis longtemps. Il a pavé la route de bonnes intentions, vers une uniformisation de l'accès aux fonctions natives des plateformes mobiles. Non sans surprise il reste aujourd'hui l'un des grands pilliers du mobile hybride. Non seulement il continue d'être maintenu et amélioré très régulièrement (sortie de la version 6 le 28 Janvier 2016 !), mais surtout il sert de base à de nombreux frameworks dont Ionic dont nous parlerons plus tard.
+Cordova est là depuis longtemps. Il a pavé la route de bonnes intentions, vers une uniformisation de l'accès aux fonctions natives des plateformes mobiles. Non sans surprise il reste aujourd'hui l'un des grands piliers du mobile hybride. Non seulement il continue d'être maintenu et amélioré très régulièrement (sortie de la version 6 le 28 Janvier 2016 !), mais surtout il sert de base à de nombreux frameworks dont Ionic dont nous parlerons plus tard.
 
 Il est facile de se dire que Cordova seul n'est pas "assez", mais il convient parfaitement à certains types d'application où la lourdeur d'un framework complet est une chose dont on peut largement se passer.
 
@@ -20,7 +20,7 @@ Il est facile de se dire que Cordova seul n'est pas "assez", mais il convient pa
 ### Points négatifs :
 * Demande un travail plus conséquent pour avoir un résultat de production ;
 * Interface graphique non comprise ;
-* Abscence de visualisation hors émulateur/périphérique par défaut.
+* Absence de visualisation hors émulateur/périphérique par défaut.
 
 
 ## Ionic : le petit frère
@@ -42,16 +42,15 @@ Ionic est aujourd'hui l'un des frameworks les plus en vogue pour faire des appli
 
 ## React-Native : le cousin des states
 React-Native est le penchant mobile du framework de Facebook, React. Encore en cours de finalisation, il apporte une autre réponse au fameux mythe du "écrire une fois et déployer partout".
-L'intérêt principal est qu'il utilise la même syntaxe que React, et permet donc, modulo les éléments spécifiques aux plateformes mobiles, de réutiliser le code pour une version desktop, tout en créant des versions natives pour Android et iOS. Il devient d'ailleurs même envisageable, avec un peu de réécriture, de l'associer à un cordova pour le déployer sur d'autres plateformes que celles supportées par le framework.
+L'intérêt principal est qu'il utilise la même syntaxe que React, et permet donc, modulo les éléments spécifiques aux plateformes mobiles, de réutiliser le code pour une version bureau ou web, tout en créant des versions natives pour Android et iOS. Il devient d'ailleurs même envisageable, avec un peu de réécriture, de l'associer à un cordova pour le déployer sur d'autres plateformes que celles supportées par le framework.
 
 ### Points positifs :
 * Performances natives ;
-* Framework édité par Facebook ;
+* Framework édité par Facebook, donc bien maintenu ;
 * Logique de composants ;
 * Même syntaxe que React (donc possibilité de sortir une version web).
 
 ### Points négatifs :
 * Framework jeune ;
 * Compatibilité Android partielle ;
-* N'est pas du web à proprement parlé et donc demande une adaptation pour les développeurs ;
-* Framework édité par Facebook.
+* N'est pas du web à proprement parlé et donc demande une adaptation pour les développeurs.
