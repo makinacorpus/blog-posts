@@ -20,7 +20,7 @@ ce n'est pas évident pour le développeur de l'application client qui ne connai
 En effet, le développeur de l'application qui consomme l'API n'a pas besoin d'avoir une connaissance poussée du métier, à l'instar de l'utilisateur.
 
 Prenons l'exemple d'une application comme gitlab, un serveur pour gérer et héberger les projets git de votre équipe.
-Une des ressources facilement repérables est le projet et nous retrouverons donc deux routes autour de cette ressource :
+Une des ressources facilement repérable est le projet et nous retrouverons donc deux routes autour de cette ressource :
 
 - `/projects` pour [récupérer l'ensemble des projets](http://doc.gitlab.com/ce/api/projects.html#list-projects) auxquels le token de la requête donne accès ;
 - `/projects/{project_id}` pour [récupérer un project particulier](http://doc.gitlab.com/ce/api/projects.html#get-single-project) à partir de son identifiant.
