@@ -17,7 +17,7 @@ L'API doit servir des ressources ;
 les ressources métier qui sont nécessaires aux différentes applications clientes qui la consommeront.
 Il faut bien repérer les ressources métier :
 ce n'est pas évident pour le développeur de l'application client qui ne connait pas forcément le métier de faire le point sur une API qui n'est pas bien écrite.
-Le développeur de l'application qui consomme l'API n'a pas besoin d'avoir une connaissance poussée du métier, à l'instar de l'utilisateur.
+En effet, le développeur de l'application qui consomme l'API n'a pas besoin d'avoir une connaissance poussée du métier, à l'instar de l'utilisateur.
 
 Prenons l'exemple d'une application comme gitlab, un serveur pour gérer et héberger les projets git de votre équipe.
 Une des ressources facilement repérable est le projet et nous retrouverons donc deux routes autour de cette ressource :
@@ -46,7 +46,7 @@ Ainsi on aura différentes routes permettant de récupérer les ressources relat
 - `/projects/{project_id}/members` pour [les membres d'un projet](http://doc.gitlab.com/ce/api/projects.html#list-project-team-members) ;
 - `/projects/{project_id}/repository/branches` pour [les branches du dépôt d'un projet](http://doc.gitlab.com/ce/api/projects.html#list-branches).
 
-Là encore c'est grâce au token qu'on reconnait l'utilistauer qui en fait la demande et qu'on adapte la réponse en ne renvoyant que les données auxquelles l'appelant à le droit d'accéder.
+Là encore c'est grâce au token qu'on reconnait l'utilisateur qui en fait la demande et qu'on adapte la réponse en ne renvoyant que les données auxquelles l'appelant a le droit d'accéder.
 C'est pour ça qu'on parle d'API *stateless*, l'état n'est pas conservé par le serveur :
 chaque requête contient l'ensemble des éléments permettant de répondre.
 
@@ -65,7 +65,7 @@ On aura donc plusieurs routes qui délivrent la même ressource, mais pas forcé
 - `/users/{user_id}` permet de [récupérer l'ensemble des données pour un utilisateur](http://doc.gitlab.com/ce/api/users.html#for-user) ;
 - `/projects/{project_id}/members/{user_id}` permet de [récupérer que certains champs](http://doc.gitlab.com/ce/api/projects.html#get-project-team-member) : *name*, *username*, *id*, *state*, *avatar_url* et *access_level*.
 
-En toute logique, pour un même `user_id`, les informations renvoyées sont les mêmes quelques soient la route.
+En toute logique, pour un même `user_id`, les informations renvoyées sont les mêmes quelles que soit la route.
 Les champs seront différents si cela a une raison. Inutile de récupérer les champs *website_url* d'un utilisateur pour afficher la liste des membres d'une équipe d'un projet.
 Par contre on pourra retrouver cette information dans l'application cliente en créant un lien, grâce à l'identifiant, vers la ressource principale.
 
@@ -127,7 +127,7 @@ Pour l'afficher dans notre template [ionic](http://edit.makina-corpus.com/blog/m
 </ul>
 ```
 
-Sur une web app en ligne, nous appellerons les ressources quand nous en avons besoin, en acceptant qu'elle renvoie des informations complètes et auto-descriptive.
+Sur une web app en ligne, nous appellerons les ressources quand nous en avons besoin, en acceptant qu'elle renvoie des informations complètes et auto-descriptives.
 Inutile de renvoyer une ressource en mode base de données relationnelle de ce type :
 
 ``` json
