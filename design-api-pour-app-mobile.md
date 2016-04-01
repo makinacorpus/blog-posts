@@ -3,7 +3,7 @@
 Chez Makina Corpus, nous faisons des [applications mobiles hybrides](http://edit.makina-corpus.com/blog/metier/2016/quelle-solution-pour-mon-application-mobile-hybride).
 Il n'est pas rare que nos clients gèrent eux-même la partie métier et qu'ils fournissent directement une interface pour accéder aux données.
 L'application mobile consommera donc une API (*Application Programming Interface*) servie par un serveur web.
-Le design de cette API est très important pour construire quelques choses qui conviendra aux développeurs :
+Le design de cette API est très important pour construire quelque chose qui conviendra aux développeurs :
 une API web peut être plus ou moins pratique, on pourra parler alors de *DX*, l'expérience développeur.
 Comme pour l'expérience utilisateur (*UX*), l'important peut être articulé autour des 3 U :
 
@@ -34,7 +34,7 @@ On pourra par exemple appeler :
 - `/projects?order_by=created_at` qui permet d'ordonner la réponse par date de création ;
 - `/projects?search=ionic` qui retourne la liste des projets auxquels l'appelant à accès et qui contiennent le terme *ionic*.
 
-On pourrait également imaginer utiliser les *query parameters* pour limiter les champs retournés par l'API (un peu à la manière de ce que propose la sépcification GraphQL) :
+On pourrait également imaginer utiliser les *query parameters* pour limiter les champs retournés par l'API (un peu à la manière de ce que propose la spécification GraphQL) :
 
 - `/projects?fields=ssh_url_to_repo,owner,name` pour récupérer le nom du projet, son responsable et un lien.
 
@@ -52,7 +52,7 @@ chaque requête contient l'ensemble des éléments permettant de répondre.
 
 De la même manière, on peut récupérer une sous-ressource particulière grâce à sa clef, son identifiant :
 
-- `/patients/{project_id}/members/{user_id}` pour [accéder aux données d'un membre particulier du projet](http://doc.gitlab.com/ce/api/projects.html#get-project-team-member).
+- `/projects/{project_id}/members/{user_id}` pour [accéder aux données d'un membre particulier du projet](http://doc.gitlab.com/ce/api/projects.html#get-project-team-member).
 
 Il n'y a aucun problème à délivrer les mêmes ressources via plusieurs routes si cela a du sens.
 Prenons les membres d'un projet par exemple.
@@ -63,7 +63,7 @@ Et une autre :
 On aura donc plusieurs routes qui délivrent la même ressource, mais pas forcément de la même manière :
 
 - `/users/{user_id}` permet de [récupérer l'ensemble des données pour un utilisateur](http://doc.gitlab.com/ce/api/users.html#for-user) ;
-- `/projects/{project_id}/members/{user_id}` permet de [récupérer les champs *name*, *username*, *id*, *state*, *avatar_url* et *access_level*](http://doc.gitlab.com/ce/api/projects.html#get-project-team-member).
+- `/projects/{project_id}/members/{user_id}` permet de [récupérer que certains champs](http://doc.gitlab.com/ce/api/projects.html#get-project-team-member) : *name*, *username*, *id*, *state*, *avatar_url* et *access_level*.
 
 En toute logique, pour un même `user_id`, les informations renvoyées sont les mêmes quelques soient la route.
 Les champs seront différents si cela a une raison. Inutile de récupérer les champs *website_url* d'un utilisateur pour afficher la liste des membres d'une équipe d'un projet.
