@@ -1,7 +1,7 @@
 # Les besoins spécifiques de l'app mobile
 
 Chez Makina Corpus, nous faisons des [applications mobiles hybrides](http://edit.makina-corpus.com/blog/metier/2016/quelle-solution-pour-mon-application-mobile-hybride).
-Il n'est pas rare que nos clients maitrisent leur métier et qu'ils fournissent directement une interface pour accéder aux données.
+Il n'est pas rare que nos clients gèrent eux-même la partie métier et qu'ils fournissent directement une interface pour accéder aux données.
 L'application mobile consommera donc une API (*Application Programming Interface*) servie par un serveur web.
 Le design de cette API est très important pour construire quelques choses qui conviendra aux développeurs :
 une API web peut être plus ou moins pratique, on pourra parler alors de *DX*, l'expérience développeur.
