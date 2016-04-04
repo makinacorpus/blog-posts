@@ -7,9 +7,9 @@ Le design de cette API est très important pour construire quelque chose qui con
 une API web peut être plus ou moins pratique, on pourra parler alors de *DX*, l'expérience développeur.
 Comme pour l'expérience utilisateur (*UX*), l'important peut être articulé autour des 3 U :
 
-1. Utilisable
-2. Utilisée
-3. Utile
+1. Utile
+2. Utilisable
+3. Utilisée
 
 ## Les ressources
 
