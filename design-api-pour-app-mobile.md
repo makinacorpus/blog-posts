@@ -163,7 +163,7 @@ Dans une version plus complète, [le livre blanc](https://apigee.com/about/resou
 Une bonne documentation pour votre API est souvent essentielle, quand je dois en faire, je la réalise en pseudo markdown avec la spécification [opensource](https://github.com/apiaryio/api-blueprint) [blueprint](https://apiblueprint.org/) ou encore avec la spécification yaml de l'[Open API Initiative](https://openapis.org/specification) basée sur [swagger](http://swagger.io/), lui aussi [opensource](https://github.com/swagger-api).
 La documentation via ces deux spécifications permettent de générer une page html ainsi qu'un [serveur mock](https://apiblueprint.org/tools.html).
 
-Enfin si vous avez besoin de tester votre API, rien de tel qu'un petit client REST comme [\\</\\> Rested](https://github.com/esphen/RESTED).
+Enfin si vous avez besoin de tester votre API, rien de tel qu'un petit client REST comme [&lt;/&gt; Rested](https://github.com/esphen/RESTED).
 
 Autre proposition : allez voir les API des gros services comme celle de [gitlab](http://doc.gitlab.com/ce/api/), [github](https://developer.github.com/v3/), [twitter](https://dev.twitter.com/rest/public), [enchant](http://dev.enchant.com/api/v1), etc.
 
