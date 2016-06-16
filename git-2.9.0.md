@@ -4,7 +4,7 @@ description: Il y a trois jours paraissait la version 2.9.0 de Git. Survol rapid
 creators: bma
 ---
 
-_Cet article se base essentiellement sur la [publication de Github](https://github.com/blog/2188-git-2-9-has-been-released) annonçant la sortie. Pour une liste plus détaillées des fonctionnalités, voir [les notes de version](https://raw.githubusercontent.com/git/git/master/Documentation/RelNotes/2.9.0.txt)._
+_Cet article se base essentiellement sur la [publication de Github](https://github.com/blog/2188-git-2-9-has-been-released) annonçant la sortie. Pour une liste plus détaillée des fonctionnalités, voir [les notes de version](https://raw.githubusercontent.com/git/git/master/Documentation/RelNotes/2.9.0.txt)._
 
 ## Executer une commande pendant un rebase
 
