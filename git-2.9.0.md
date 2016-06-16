@@ -1,6 +1,7 @@
 ---
 title: Les nouveautés de Git 2.9
 description: Il y a trois jours paraissait la version 2.9.0 de Git. Survol rapide des nouveautés.
+url: /blog/metier/2016/les-nouveautes-de-git-2.9
 creators: bma
 ---
 
