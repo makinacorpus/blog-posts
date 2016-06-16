@@ -12,7 +12,7 @@ Pendant un rebase interactif _(`git rebase -i`)_ il était déjà possible d'ex�
 
 L'ajout de l'option `-x` permet maintenant d'exécuter une commande après **chaque** commit d'un rebase.
 
-Cela ouvre plusieurs possibilités, comme lancer un _jeu de tests_ sur chaque commit pour corriger plusieurs défauts (là où un bisect devrait être utilisé pour chaque défaut), ou encore lancer du _linting_ et améliorer la qualité du code : le rebase est en pause si la commande utilisée renvoie une erreur. Un `git rebase --continue` reprend l'opération à tout moment.
+Cela ouvre plusieurs possibilités, comme lancer un _jeu de tests_ sur chaque commit pour corriger plusieurs défauts (là où un bisect devrait être utilisé pour chaque défaut), de compiler le code pour vérifier la syntaxe ou encore lancer du _linting_ et améliorer la qualité du code : le rebase est en pause si la commande utilisée renvoie une erreur. Un `git rebase --continue` reprend l'opération à tout moment.
 
 ```bash
 git rebase -x 'make test'
