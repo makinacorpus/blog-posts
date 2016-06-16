@@ -4,15 +4,15 @@ description: Il y a trois jours paraissait la version 2.9.0 de Git. Survol rapid
 creators: bma
 ---
 
-_Cet article se base essentiellement sur la [publication de Github](https://github.com/blog/2188-git-2-9-has-been-released) annonçant la sortie. Pour une liste plus détaillée des fonctionnalités, voir [les notes de version](https://raw.githubusercontent.com/git/git/master/Documentation/RelNotes/2.9.0.txt)._
+_Cet article se base essentiellement sur la [publication de Github](https://github.com/blog/2188-git-2-9-has-been-released) annonçant la sortie de la nouvelle version. Pour une liste plus détaillée des fonctionnalités, voir [les notes de version](https://raw.githubusercontent.com/git/git/master/Documentation/RelNotes/2.9.0.txt)._
 
-## Executer une commande pendant un rebase
+## Exécuter une commande pendant un rebase
 
-Pendant un rebase interactif _(`git rebase -i`)_ il était déjà possible d'éxecuter une commande entre deux commits en ajoutant une ligne avec le prefix `x` ou `exec` puis la commande.
+Pendant un rebase interactif _(`git rebase -i`)_ il était déjà possible d'exécuter une commande entre deux commits en ajoutant une ligne avec le préfixe `x` ou `exec` puis la commande.
 
-L'ajout de l'option `-x` permet maintenant d'executer une commande après **chaque** commit d'un rebase.
+L'ajout de l'option `-x` permet maintenant d'exécuter une commande après **chaque** commit d'un rebase.
 
-Cela ouvre plusieurs possibilités, comme lancer un _jeu de tests_ sur chaque commit pour corriger plusieurs défaut (là où un bisect devrait être utilisé pour chaque défaut), ou encore lancer du _linting_ et améliorer la qualité du code : le rebase est en pause si la commande utilisée renvoie une erreur. Une `git rebase --continue` reprend l'opération à tout moment.
+Cela ouvre plusieurs possibilités, comme lancer un _jeu de tests_ sur chaque commit pour corriger plusieurs défauts (là où un bisect devrait être utilisé pour chaque défaut), de compiler le code pour vérifier la syntaxe ou encore lancer du _linting_ et améliorer la qualité du code : le rebase est en pause si la commande utilisée renvoie une erreur. Un `git rebase --continue` reprend l'opération à tout moment.
 
 ```bash
 git rebase -x 'make test'
@@ -20,7 +20,7 @@ git rebase -x 'make test'
 
 ## Des `diff` plus beaux
 
-Cette nouvelle version améliore également le rendu des `diff` en rendant leur détection et coloration plus intelligente _(par détection des blancs)_. Par exemple :
+Cette nouvelle version améliore également le rendu des `diff` en rendant leur détection et coloration plus intelligentes _(par détection des blancs)_. Par exemple :
 ```diff
 diff --git a/exemple.js b/exemple.js
 index 7d021b1..1fac7e5 100644
@@ -72,7 +72,7 @@ Et il est possible d'activer cette option par défaut :
 git config submodule.fetchJobs X
 ```
 
-## Et sinon...
+## Et sinon…
 
 La commande `git describe` a été améliorée pour fournir un descriptif de commit beaucoup plus pertinent.
 
