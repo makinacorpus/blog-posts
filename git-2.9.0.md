@@ -80,3 +80,7 @@ La commande `git describe` a été améliorée pour fournir un descriptif de com
 Les tabulations sont mieux gérée dans l'affichage des `git log` _(C'est surtout interessant si vous avez l'habitude de faire de l'ascii art ou des tableaux en description de commit)_
 
 Une nouvelle option `core.hooksPath` permet de choisir un autre dossier que `.git/hooks` pour chaque projet, et donc de pouvoir centraliser les hooks d'un ensemble de projet sans avoir à créer de liens symboliques.
+
+---
+
+Une erreur, une question, une remarque, n'hesitez pas : [@mab_](https://twitter.com/mab_)
