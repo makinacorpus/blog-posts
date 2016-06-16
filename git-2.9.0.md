@@ -22,39 +22,37 @@ git rebase -x 'make test'
 
 Cette nouvelle version améliore également le rendu des `diff` en rendant leur détection et coloration plus intelligente _(par détection des blancs)_. Par exemple :
 ```diff
-diff --git a/foo.rb b/foo.rb
-index 64bb579..a2b5573 100644
---- a/foo.rb
-+++ b/foo.rb
-@@ -3,6 +3,10 @@ module Foo
-   def finalize(values)
+diff --git a/exemple.js b/exemple.js
+index 7d021b1..1fac7e5 100644
+--- a/exemple.js
++++ b/exemple.js
+@@ -1,6 +1,10 @@
+ function exemple (tab) {
 
-     values.each do |v|
-+      v.prepare
-+    end
+     tab.forEach(element => {
++        action1(element);
++    });
 +
-+    values.each do |v|
-       v.finalize
-     end
- end
++    tab.forEach(element => {
+         action2(element);
+     });
 ```
 devient :
 ```diff
-diff --git a/foo.rb b/foo.rb
-index 64bb579..a2b5573 100644
---- a/foo.rb
-+++ b/foo.rb
-@@ -2,6 +2,10 @@ module Foo
+diff --git a/exemple.js b/exemple.js
+index 7d021b1..1fac7e5 100644
+--- a/exemple.js
++++ b/exemple.js
+@@ -1,5 +1,9 @@
+ function exemple (tab) {
 
-   def finalize(values)
-
-+    values.each do |v|
-+      v.prepare
-+    end
++    tab.forEach(element => {
++        action1(element);
++    });
 +
-     values.each do |v|
-       v.finalize
-     end
+     tab.forEach(element => {
+         action2(element);
+     });
 ```
 À activer avec l'option `--compaction-heuristic` ou la config `diff.compactionHeuristic`.
 
