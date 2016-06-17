@@ -116,5 +116,6 @@ duquel vous pouvez suivre les directives pour [créer votre première
 Progressive Web App](https://developers.google.com/web/fundamentals/getting-started/your-first-progressive-web-app/). Et lorsque vous
 aurez besoin d'un backend pour servir vos données, jetez donc un
 œil à [Kinto](http://www.kinto-storage.org/), un serveur de données
-à API REST, qui, associé à [Kinto-client.js](https://github.com/Kinto/kinto.js)
-, sera [le parfait allié](http://www.servicedenuages.fr/en/what-can-kinto-do-for-you) de votre Progressive Web App.
+à API REST, qui, associé à [Kinto.js](https://github.com/Kinto/kinto.js)
+(ou [Kinto-browser.js](https://github.com/Kinto/kinto.js/issues/459)),
+sera [le parfait allié](http://www.servicedenuages.fr/en/what-can-kinto-do-for-you) de votre Progressive Web App.
