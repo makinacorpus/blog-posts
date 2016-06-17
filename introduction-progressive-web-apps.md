@@ -1,5 +1,5 @@
 ---
-title: Bien comprendre les progressive Web Apps
+title: Bien comprendre les Progressive Web Apps
 description: On va beaucoup en parler, voilà de quoi suivre les
 discussions.
 url: /blog/metier/2016/introduction-progressive-we
@@ -12,12 +12,12 @@ C'est pourquoi [nous utilisons Cordova et Ionic](http://makina-corpus.com/blog/m
 pour porter les applications de nos clients sur les stores
 Android et iOS.
 
-_N.B. [React Native](http://makina-corpus.com/blog/metier/2016/decouverte-de-react-native)
+_N.B._ [React Native](http://makina-corpus.com/blog/metier/2016/decouverte-de-react-native)
 ou des solutions comme NativeScript nous
 plaisent un peu moins, car bien qu'elles utilisent des langages
 connus des développeurs Web, nous sortons du Web et nous n'avons
 plus accès à notre [Web API](https://developer.mozilla.org/en-US/docs/Web/API)
-que nous aimons tant._
+que nous aimons tant.
 
 # Native versus Web App
 
