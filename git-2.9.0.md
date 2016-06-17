@@ -75,20 +75,21 @@ git config submodule.fetchJobs X
 
 ## Et sinon…
 
-La commande `git describe` a été améliorée pour fournir un descriptif de commit beaucoup plus pertinent.
+- La commande `git describe` a été améliorée pour fournir un descriptif de commit (basés sur les tags) beaucoup plus pertinent.
 
-Les tabulations sont mieux gérée dans l'affichage des `git log` _(C'est surtout interessant si vous avez l'habitude de faire de l'ascii art ou des tableaux en description de commit)_
+- Les tabulations sont mieux gérée dans l'affichage des `git log` _(C'est surtout interessant si vous avez l'habitude de faire de l'ascii art ou des tableaux en description de commit)_
 
-Une nouvelle option `core.hooksPath` permet de choisir un autre dossier que `.git/hooks` pour chaque projet, et donc de pouvoir centraliser les hooks d'un ensemble de projet sans avoir à créer de liens symboliques.
+- Une nouvelle option `core.hooksPath` permet de choisir un autre dossier que `.git/hooks` pour chaque projet, et donc de pouvoir centraliser les hooks d'un ensemble de projet sans avoir à créer de liens symboliques.
 
----
+## Git 2.9 & Ubuntu
 
-Une erreur, une question, une remarque, n'hesitez pas : [@mab_](https://twitter.com/mab_) ou directement par une [pull-request](https://github.com/makinacorpus/blog-posts/blob/master/git-2.9.0.md).
-
----
-
-Mise à jour _(2016-06-17)_ : J'oubliais, si vous êtes sous Ubuntu et que vous souhaitez passer à Git 2.9.0 sans attendre, vous pouvez ajouter le `ppa` [disponible sur Launchpad](https://launchpad.net/~git-core/+archive/ubuntu/ppa) :
+Les utilisateurs d'Ubuntu auront sans doute remarqué que la version stable dans les dépôts officiels est la 2.7.
+Si vous souhaitez passer à **Git 2.9** sans attendre, vous pouvez ajouter le `ppa` [disponible sur Launchpad](https://launchpad.net/~git-core/+archive/ubuntu/ppa) :
 ```bash
 sudo apt-add-repository ppa:git-core/ppa
 sudo apt update && sudo apt upgrade git
 ```
+
+---
+
+Une erreur, une question, une remarque, n'hesitez pas : [@mab_](https://twitter.com/mab_) ou directement par une [pull-request](https://github.com/makinacorpus/blog-posts/blob/master/git-2.9.0.md).
