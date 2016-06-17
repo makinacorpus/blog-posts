@@ -40,18 +40,15 @@ appareil photo, boussole, gps, …
 Ces fonctionnalités existent déjà dans le Web.
 Vous avez déjà vu ce genre de notifications dans votre navigateur ?
 
-![](https://makina-corpus.com/blog/metier/images/geolocation-API.png)
+![](https://makina-corpus.com/blog/metier/images/geolocation-api.png)
 
-![](https://makina-corpus.com/blog/metier/images/notifications-API.png)
+![](https://makina-corpus.com/blog/metier/images/notifications-api.png)
 
-![](https://makina-corpus.com/blog/metier/images/camera-API.png)
+![](https://makina-corpus.com/blog/metier/images/camera-api.png)
 
 Et le Web ne cesse d'évoluer pour permettre à tout le monde
 et tous les périphériques d'en profiter,
-pour le pire ou pour le meilleur.
-
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">the future, finally delivered <a href="https://t.co/0b7Vz3BUGm">pic.twitter.com/0b7Vz3BUGm</a></p>&mdash; Internet of Shit (@internetofshit) <a href="https://twitter.com/internetofshit/status/723792156197040129">April 23, 2016</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+[pour le pire ou pour le meilleur](https://twitter.com/internetofshit/status/723792156197040129).
 
 Et c'est à ce moment là qu'on peut commencer à parler des Progressive Web Apps.
 
@@ -100,7 +97,7 @@ que le [Web App Manifest](https://developer.mozilla.org/en-US/docs/Web/Manifest)
 # La révolution
 
 Vous avez pu vous rendre compte que chaque élément de la liste ci-dessus
-point vers une documentation. Si certaines technologies sont en cours
+pointe vers une documentation. Si certaines technologies sont en cours
 de finalisation, elles sont toutes au moins validées par le W3C.
 Ce sont donc bien des technologies, non pas de demain, mais de
 tout à l'heure.
@@ -119,3 +116,9 @@ aurez besoin d'un backend pour servir vos données, jetez donc un
 à API REST, qui, associé à [Kinto.js](https://github.com/Kinto/kinto.js)
 (ou [Kinto-browser.js](https://github.com/Kinto/kinto.js/issues/459)),
 sera [le parfait allié](http://www.servicedenuages.fr/en/what-can-kinto-do-for-you) de votre Progressive Web App.
+
+---
+
+Une erreur, une question, une remarque,
+n'hesitez pas : [@ticabri](https://twitter.com/ticabri)
+ou directement par une [pull-request](https://github.com/makinacorpus/blog-posts/blob/master/introduction-progressive-web-apps.md).
