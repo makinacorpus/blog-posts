@@ -66,8 +66,8 @@ avec le meilleur des applications natives.
 
 Prenons un exemple.
 
-Un utilisateur découvre pour la première fois votre application dans un de ses
-onglets de [son navigateur préféré](http://mzl.la/1Lu1XwU), hyper accessible
+Un utilisateur découvre pour la première fois votre application dans un
+onglet de [son navigateur préféré](http://mzl.la/1Lu1XwU), hyper accessible
 puisqu'aucune installation n'est requise.
 Plus l'utilisateur va utiliser l'application qui lui rend pas mal de services,
 plus elle va être agréable à utiliser : chargement rapide, même sur un réseau
