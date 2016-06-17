@@ -84,3 +84,11 @@ Une nouvelle option `core.hooksPath` permet de choisir un autre dossier que `.gi
 ---
 
 Une erreur, une question, une remarque, n'hesitez pas : [@mab_](https://twitter.com/mab_) ou directement par une [pull-request](https://github.com/makinacorpus/blog-posts/blob/master/git-2.9.0.md).
+
+---
+
+Mise à jour _(2016-06-17)_ : J'oubliais, si vous êtes sous Ubuntu et que vous souhaitez passer à Git 2.9.0 sans attendre, vous pouvez ajouter le `ppa` [disponible sur Launchpad](https://launchpad.net/~git-core/+archive/ubuntu/ppa) :
+```bash
+sudo apt-add-repository ppa:git-core/ppa
+sudo apt update && sudo apt upgrade git
+```
