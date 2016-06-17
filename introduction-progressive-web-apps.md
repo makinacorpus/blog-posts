@@ -1,7 +1,6 @@
 ---
 title: Bien comprendre les Progressive Web Apps
-description: On va beaucoup en parler, voilà de quoi suivre les
-discussions.
+description: On va beaucoup en parler, voilà de quoi suivre les discussions.
 url: /blog/metier/2016/introduction-progressive-we
 creators: eco
 ---
