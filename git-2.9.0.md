@@ -83,4 +83,4 @@ Une nouvelle option `core.hooksPath` permet de choisir un autre dossier que `.gi
 
 ---
 
-Une erreur, une question, une remarque, n'hesitez pas : [@mab_](https://twitter.com/mab_)
+Une erreur, une question, une remarque, n'hesitez pas : [@mab_](https://twitter.com/mab_) ou directement par une [pull-request](https://github.com/makinacorpus/blog-posts/blob/master/git-2.9.0.md).
