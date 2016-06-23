@@ -14,7 +14,7 @@ Le principe est donc à peu près le même que pour Cordova, notre app tourne da
 ### Quelques différences techniques avec Cordova
 
 * Electron intègre de base BabelJS et permet très facilement de coder en ES2015
-* Les [Web API](https://developer.mozilla.org/fr/docs/Web/API) sont en général mieux supportées, de nombreuses fonctionnalités peuvent donc être utilisées directement avec la Web API comme pour du web classique, sans passer par un quelquonque plugin (exemple : Talk To Speech, Camera, Vibrate, etc)
+* Les [Web API](https://developer.mozilla.org/fr/docs/Web/API) sont en général mieux supportées, de nombreuses fonctionnalités peuvent donc être utilisées directement avec la Web API comme pour du web classique, sans passer par un quelconque plugin (exemple : Talk To Speech, Camera, Vibrate, etc.)
 * Pas besoin de compiler à chaque modification, un simple `ctrl + R` suffit à mettre à jour l'application
 
 
@@ -28,7 +28,7 @@ Les dossiers cordova et electron contiennent tous les deux uniquement une base f
 Le rendu HTML sera uniquement généré en JS pour éviter d'avoir à écrire ou à importer du HTML dans chacun des projets. J'utilise ici React pour simplifier la manipulation du DOM.
 
 
-### Comment gérer les besoins spécifiques (plugins Cordova, etc) ?
+### Comment gérer les besoins spécifiques (plugins Cordova, etc.) ?
 
 Comme évoqué précédemment, nous avons parfois besoin d'implémenter des plugins à Cordova pour accéder à certaines fonctionnalités, tandis qu'Electron gère très bien la Web API.
 
@@ -63,7 +63,7 @@ Comme vous l'aurez remarqué, la syntaxe utilisée est en ES2015, il faudra donc
 #### **./modules/tts.webapi/tts.webapi.js** (service spécifique pour electron ou web)
 `./modules/tts.webapi` est notre fonction de TTS pour Electron (ou pour le web puisqu'il s'agit de la [Web Speech API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API))
 
-<p data-height="420" data-theme-id="dark" data-slug-hash="WxoJKx" data-default-tab="js" data-user="lellex" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/lellex/pen/WxoJKx/">TTS Web API</a> by Alexandra J (<a href="http://codepen.io/lellex">@lellex</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<p data-height="340" data-theme-id="dark" data-slug-hash="WxoJKx" data-default-tab="js" data-user="lellex" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/lellex/pen/WxoJKx/">TTS Web API</a> by Alexandra J (<a href="http://codepen.io/lellex">@lellex</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
 <br>
@@ -84,6 +84,7 @@ Le chargement des modules peut se faire via npm, en pointant vers son adresse s'
 ```
 npm install ./../modules/reader
 ```
+
 Une fois notre package installé, nous pouvons les utiliser avec un `require` ou `import` dans Electron.
 Il suffira ensuite d'initialiser notre fonction de lecture avec les bons paramètres (la fonction TTS ainsi que la phrase que nous voulons lire).
 
@@ -106,7 +107,7 @@ Notre fichier JS cordova fait appel à Reader de la même manière qu'Electron, 
 ### [Démo](https://github.com/lellex/demo-electron-cordova)
 
 [Une version démo](https://github.com/lellex/demo-electron-cordova) de l'exemple ci-dessus est disponible sur Github avec des explications plus détaillées.
-Chacun des modules a ici été mis sur un dépot, ce qui nous permet d'utiliser directement npm pour les installer.
+Chacun des modules a ici été mis sur un dépôt, ce qui nous permet d'utiliser directement npm pour les installer.
 
 
 ## Les application desktop ne sont donc pas mortes ?
