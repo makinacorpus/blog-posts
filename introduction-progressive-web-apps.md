@@ -79,10 +79,14 @@ devient optionnel ;
 - Rapidité : comme une application native, l'application doit afficher
 [60 FPS](https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API) (_Frame Per Second_) grâce aux possibilités offertes pour
 gérer les animations, la navigation et les défilements ;
-- Notification Push : l'[API Web Push Notification](https://developer.mozilla.org/en-US/docs/Web/API/notification) et le [Service Worker](https://developer.mozilla.org/en-US/docs/Web/API/Push_API)
+- Notification Push : la [Notification API](https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API) et la [Push API](https://developer.mozilla.org/en-US/docs/Web/API/Push_API)
 permet de forger l'engagement de l'utilisateur en leur proposant
-des notifications contextuelles et adéquates, et ce, même si
-le navigateur est fermé ;
+des notifications contextuelles et adéquates
+et en mettant à jour l'application sans action de l'utilisateur
+(l'utilisateur reçoit une notification pour l'informer qu'un nouveau
+message est disponible dans son réseau social)
+, et ce, même si
+le navigateur est fermé (grâce au [Service Worker](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API)) ;
 - [Responsive](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries) : l'utilisateur accède à votre application par différents
 périphériques, [votre application doit faire de même](http://alistapart.com/article/responsive-web-design) et suivre l'utilisateur
 sur son téléphone, sa tablette ou son ordinateur (voire sa montre) ;
