@@ -80,7 +80,7 @@ devient optionnel ;
 [60 FPS](https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API) (_Frame Per Second_) grâce aux possibilités offertes pour
 gérer les animations, la navigation et les défilements ;
 - Notification Push : la [Notification API](https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API) et la [Push API](https://developer.mozilla.org/en-US/docs/Web/API/Push_API)
-permet de forger l'engagement de l'utilisateur en leur proposant
+permettent de forger l'engagement de l'utilisateur en leur proposant
 des notifications contextuelles et adéquates
 et en mettant à jour l'application sans action de l'utilisateur
 (l'utilisateur reçoit une notification pour l'informer qu'un nouveau
