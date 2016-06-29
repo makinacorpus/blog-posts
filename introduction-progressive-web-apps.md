@@ -111,7 +111,7 @@ Corpus, nous sommes convaincus des qualités du Web et nous commençons
 déjà à prendre en compte cette évolution.
 
 Comme à chaque fois, la meilleure façon de comprendre est d'essayer
-avec une applicaiton prototype.
+avec une application prototype.
 Google, le responsable d'Android, fournit un guide très complet
 duquel vous pouvez suivre les directives pour [créer votre première
 Progressive Web App](https://developers.google.com/web/fundamentals/getting-started/your-first-progressive-web-app/). Et lorsque vous
