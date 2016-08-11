@@ -121,6 +121,14 @@ aurez besoin d'un backend pour servir vos données, jetez donc un
 (ou [Kinto-browser.js](https://github.com/Kinto/kinto.js/issues/459)),
 sera [le parfait allié](http://www.servicedenuages.fr/en/what-can-kinto-do-for-you) de votre Progressive Web App.
 
+# Pour aller plus loin
+
+- A Beginner’s Guide To Progressive Web Apps (https://www.smashingmagazine.com/2016/08/a-beginners-guide-to-progressive-web-apps/)
+- Le Web progresse grâce aux Progressive Web Apps (https://blog.ticabri.com/2016/06/28/le-web-progresse-grace-aux-progressive-web-apps/)
+- L'argumentaire commercial pour les Progressive Web Apps (http://frank.taillandier.me/2016/08/09/argumentaire-commercial-pour-les-progressive-web-apps/)
+- What are Progressive Web Apps (http://blog.ionic.io/what-is-a-progressive-web-app/)
+- Proof of concept Washington Post (https://www.washingtonpost.com/pwa/)
+
 ---
 
 Une erreur, une question, une remarque,
