@@ -1,34 +1,22 @@
 # Tout savoir avant de créer son application mobile
 
 Peut-être lisez-vous ce billet sur un téléphone mobile.
-Si c'est le cas, vous comprenez sûrement l'intérêt
-d'être présent ou au moins lisible
-sur ces petits terminaux nomades.
+Si c'est le cas, vous comprenez sûrement l'intérêt d'être présent ou au moins lisible sur ces petits terminaux nomades.
+
+Si vous pensez que l'accès à Internet depuis un téléphone mobile est un gadget de plus dans la disruption digitale <sup title="C'est toujours intéressant les buzz words dans un article de blog.">[1](#note1)</sup>, alors vous devriez relire cet article de 2010 :
+[Eric Schmidt: Mobile Is The Future, And There's No Such Thing As Communication Overload – TechCrunch, 12/04/2010](https://techcrunch.com/2010/04/12/eric-schmidt-mobile-is-the-future-and-theres-no-such-thing-as-communication-overload/).
+
+L'ancien patron de Google a eu le nez creux car si l'usage du téléphone mobile est très courant dans le couloir des métros,
+les [Nations Unies ont récemment fait un rapport](http://www.un.org/africarenewal/magazine/april-2014/internet-access-no-longer-luxury) qui va dans le même sens :
+la croissance du mobile en Afrique est passée de 1% en 2000 à 54% en 2012.
+
+Être présent sur l'Internet mobile n'est plus accessoire.
+En 2016, la problématique réelle devrait être *"site Web ou application ?"*.
+Nous allons voir ensemble comment faire ce choix.
 
 ![](/blog/metier/2016/images/tout-savoir-avant-creer-application-mobile/screenshot-makina-mobile.png)
 
-Si vous pensez que l'accès à internet depuis un
-téléphone mobile est un gadget de plus dans la
-disruption digitale <sup title="C'est toujours intéressant les buzz words dans un article de blog.">[1](#note1)</sup>, alors vous devriez relire
-cet article de 2010 :
-[Eric Schmidt: Mobile Is The Future, And There's No Such Thing As Communication Overload – TechCrunch, 12/04/2010](https://techcrunch.com/2010/04/12/eric-schmidt-mobile-is-the-future-and-theres-no-such-thing-as-communication-overload/).
-
-L'ancien patron de Google a eu le nez creux car si l'usage du
-téléphone mobile est très courant dans le couloir des métros des
-grandes métropoles, les
-[Nations Unies ont récemment fait un rapport](http://www.un.org/africarenewal/magazine/april-2014/internet-access-no-longer-luxury)
-qui va dans le même sens :
-la croissance du mobile en Afrique est passée de
-1% en 2000 à 54% en 2012.
-
-La présence sur le monde de l'Internet mobile n'est
-plus accessoire.
-Ainsi, en 2016, votre réelle problématique devrait être
-*"site Web ou application ?"*.
-Nous allons voir ensemble comment faire ce choix.
-
-[Luke Wroblewski](https://twitter.com/lukew)
-propose une infographie qui se résume assez simplement :
+[Luke Wroblewski](https://twitter.com/lukew) propose une infographie qui se résume assez simplement :
 
 - le Web sert à atteindre l'audience ;
 - l'application sert à fournir une expérience riche ;
@@ -37,45 +25,47 @@ propose une infographie qui se résume assez simplement :
 ![](/blog/metier/2016/images/tout-savoir-avant-creer-application-mobile/REACHvsRICH.png)
 
 Selon la plateforme, on n'atteint pas le même but.
-Étant donné le prix des développements, mieux vaut ne pas
-se tromper.
+Étant donné le prix des développements, mieux vaut ne pas se tromper.
 
 Si on touche plus de monde sur Android que sur iOS,
 on en touche encore plus avec une application Web.
 
-S'il est plus facile de se rémunérer avec une application native
-qu'avec une application Web, les utilisateurs d'iPhone rapporte
-plus que les utilisateurs d'Android.
+S'il est plus facile de se rémunérer avec une application native qu'avec une application Web,
+les utilisateurs d'iPhone rapportent plus que les utilisateurs d'Android.
 
-[iA, un éditeur de logiciels pour téléphone et tablette en a fait le constat](https://ia.net/writer/updates/the-best-things-in-android-are-freewith-in-app-purchases).
-Ils ont changé de stratégie : l'application pour Android
-est devenue gratuite, mais il faudra acheter des fonctionnalités si
-on veut l'utiliser à fond.
+iA, un éditeur de logiciels pour téléphones et tablettes en a fait [le constat](https://ia.net/writer/updates/the-best-things-in-android-are-freewith-in-app-purchases).
+Ils ont changé de stratégie :
+l'application pour Android est devenue gratuite,
+mais il faudra acheter des fonctionnalités si on veut l'utiliser à fond.
 
 ![](/blog/metier/2016/images/tout-savoir-avant-creer-application-mobile/app-downloads-and-sales-android-vs-ios.png)
 
-L'idée étant vraiment d'atteindre le plus de monde possible
-tout en étant rentable.
+L'idée étant vraiment d'atteindre le plus de monde possible tout en étant rentable.
+
+Alors quels sont les choix possibles lorsqu'on veut être présent sur mobile ?
 
 ## Site Web Reponsive
 
-Pour atteindre les utilisateurs nomades, le minimum vital est de
-prendre en compte certains principes de *Responsive Design*
-<sup title="Celui là aussi est un buzz word que j'avais envie d'utiliser, même s'il tombe en désuétude.">[2](#note2)</sup>
-pour rendre votre site Web accessible depuis un mobile.
-Mais s'il vous faut plus d'interactivité avec l'utilisateur, il faudra
-trouver une autre solution.
-N.B. :
-L'[article de MDN sur le Responsive Design](https://developer.mozilla.org/en-US/docs/Web_Development/Responsive_Web_design)
-a été archivé fin 2015.
+Le minimum vital est de prendre en compte certains principes de *Responsive Design* <sup title="Celui là aussi est un buzz word que j'avais envie d'utiliser, même s'il tombe en désuétude.">[2](#note2)</sup> pour rendre votre site Web accessible depuis un mobile.
+Mais s'il vous faut plus d'interactivité avec l'utilisateur, il faudra trouver une autre solution.
+
+_N.B. : L'[article de MDN sur le Responsive Design](https://developer.mozilla.org/en-US/docs/Web_Development/Responsive_Web_design) a été archivé fin 2015, preuve de la désuétude du terme._
+
+Pour autant, il reste important de prendre en compte les différentes tailles d'écran.
+Il faudra adapter les éléments du Site Web en utilisant des pourcentages pour définir leurs tailles,
+il faudra également éviter de charger une image en haute résolution si cette dernière doit s'afficher sur un petit écran basse résolution
+– permettant aussi de soulager la bande passante de l'utilisateur –,
+enfin les fonctionnalités devront aussi être pensée selon le support car les périphériques ne sont pas les mêmes :
+il est facile et rapide d'écrire avec un clavier physique sur un ordinateur fixe,
+mais il est difficile de prendre une photo de son environnement,
+et inversement avec un téléphone mobile.
 
 ## Applications Natives
 
-Une application native [coûte très chère](http://howmuchtomakeanapp.com/).
-Et s'il faut la déployer sur les deux stores principaux
-([Play Store](https://play.google.com/store)
-et [App Store](https://itunes.apple.com/us/genre/ios/id36?mt=8)), il faudra
-la développer deux fois.
+Une autre possibilité pour être présent sur mobile est le développement d'une application native.
+Mais une application native [coûte très cher](http://howmuchtomakeanapp.com/).
+Et s'il faut la déployer sur les deux stores principaux ([Play Store](https://play.google.com/store) et [App Store](https://itunes.apple.com/us/genre/ios/id36?mt=8)),
+il faudra la développer deux fois.
 Bien qu'étant le choix par défaut depuis 2007, outre l'investissement,
 on peut y trouver de nombreuses limitations :
 
@@ -85,60 +75,44 @@ on peut y trouver de nombreuses limitations :
 
 ## Applications Natives précompilées
 
-Pour pallier le besoin de développer deux, voire trois fois, une
-application, certains éditeurs proposent un langage et un compilateur
-permettant de concrétiser la maxime "Write Once, Run Everywhere"
+Pour pallier le besoin de développer deux applications – voire trois, en incluant un développement Windows Phone –
+certains éditeurs proposent des solutions permettant de concrétiser la maxime *« Write Once, Run Everywhere »*
 (*Écrire une fois, Faire tourner partout* <sup title="Ça sonne quand même mieux en anglais, sauf l'acronyme.">[3](#note3)</sup>).
-On y retrouve [React Native](https://facebook.github.io/react-native/),
-[NativeScript](http://www.telerik.com/nativescript).
+C'est le cas de [React Native](https://facebook.github.io/react-native/) ou de [NativeScript](http://www.telerik.com/nativescript).
 
-Mais si on peut effectivement écrire un seul code, il faudra quand même
-faire avec les spécificités des SDKs pour construire les interfaces graphiques.
+Mais si on peut effectivement écrire un seul code,
+il faudra quand même faire avec les spécificités des SDKs pour construire les interfaces graphiques.
+Et ce n'est pas toujours simple.
 
 ## Applications Hybrides
 
-Cette fois, l'idée principale de ces solutions est de proposer aux
-équipes de développeurs Web de profiter de leur expertise pour créer
-des applications hybrides.
-Ce terme définit l'utilisation des technologies du Web (HTML, JavaScript, CSS)
-embarquée dans [une WebView](https://cordova.apache.org/docs/en/latest/guide/hybrid/webviews/index.html)
-(souvent une [WebView CrossWalk](https://crosswalk-project.org/)).
+Pour des développeurs Web, il est plus facile de développer des applications avec les technologies du Web : HTML, CSS et JavaScript.
+L'idée principale des solutions hybrides est de profiter des expertises des développeurs Web pour créer des applications mobiles.
+C'est ce que propose Cordova – et les distributions telles que PhoneGap ou Ionic –
+qui permet d'embarquer [une WebView pleine page](https://cordova.apache.org/docs/en/latest/guide/hybrid/webviews/index.html)
+(souvent une [WebView CrossWalk](https://crosswalk-project.org/)) dans une application native.
 
-Des plugins développés dans le langage du SDK cible permettent aux applications
-hybrides de communiquer avec le reste de l'appareil
-(accès aux fichiers, aux différents périphériques, appareil photo, puce GPS, …).
+Des plugins développés dans le langage du SDK cible (Java pour Android et Swift pour iOS) permettent aux applications hybrides de communiquer avec le reste de l'appareil
+(accès aux fichiers, aux différents périphériques, appareil photo, puce GPS, etc.).
 
-On notera dans cet écosystème la présence de
-[Drifty qui produit Ionic Framework](http://ionicframework.com/docs/v2/).
-Un framework basé sur Angular 2 et Cordova pour construire des applications
-Web hybrides de grande qualité.
-
-Mais il faudra toujours passer par les stores.
+Mais il faudra toujours passer par les stores et leurs validations parfois obscures et souvent péremptoires.
 
 ## Progressive Web Apps
 
-C'est ce qui vient en lieu et place d'une Web app Responsive.
+On appelle [Progressive Web App](http://makina-corpus.com/blog/metier/2016/introduction-progressive-web-apps) une application qui utilise correctement les dernières spécifications HTML5 et mobile.
+Les développeurs Web, sous couvert d'une légère remise à niveau, se retrouveront en terrain connu.
 
-On appellera [Progressive Web App](http://makina-corpus.com/blog/metier/2016/introduction-progressive-web-apps)
-une application qui utilise correctement
-les dernières spécifications HTML5 et mobile.
-Les développeurs Web, sous couvert d'une légère remise à niveau,
-se retrouveront en terrain connu.
+Ils utiliseront [les Services Workers](http://makina-corpus.com/blog/metier/2016/decouvrir-le-service-worker) pour couvrir l'utilisation offline, permettre l'émission de notifications, mettre à jour l'application en arrière-plan.
 
-Ils utiliseront [les Services Workers](http://makina-corpus.com/blog/metier/2016/decouvrir-le-service-worker)
-pour couvrir l'utilisation offline,
-permettre l'émission de notifications,
-mettre à jour l'application en arrière-plan.
+L'utilisateur n'installera pas l'application sur son téléphone, mais l'application mettra en cache ce qui lui est nécessaire pour fonctionner.
+Cette mise en cache permet aussi d'éviter de télécharger *« l'App Shell »*, l'ensemble des éléments graphiques qui formeront l'interface de l'application.
 
-Grâce aux [Web Animations](https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API),
-les applications pourront proposer des animations en 60 FPS <sup title="60 FPS veut dire qu'il y a 60 images peintes en une seconde, c'est vraiment *smooth*.">[4](#note4)</sup>.
+Grâce aux [Web Animations](https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API), les applications pourront proposer des animations en 60 FPS <sup title="60 FPS veut dire qu'il y a 60 images peintes en une seconde, c'est vraiment *smooth*.">[4](#note4)</sup>.
+Ces animations permettent à l'utilisateur d'avoir la même expérience graphique qu'une application native en déportant tous ces calculs à un processeur graphique désormais présent sur la grande majorité des terminaux mobiles.
 
-On pourra les installer grâce à un [Manifest](https://developer.mozilla.org/en-US/docs/Web/Manifest).
-Le gros avantage dans ce cas est de proposer une expérience progressive
-aux utilisateurs qui visiteront la Web App plusieurs fois :
-très accessible, l'utilisateur novice viendra visiter la web app ;
-mais s'il devient coutumier, il pourra *installer* l'application
-très facilement sur son téléphone.
+La présence d'un [Manifest](https://developer.mozilla.org/en-US/docs/Web/Manifest) permet d'accompagner l'utilisateur au-delà de sa première visite.
+Il propose une expérience progressive aux utilisateurs qui visiteront la Web App plusieurs fois :
+le manifest définit un icône et un *splash screen* et permet à l'utilisateur d'ajouter cette Web App à son lanceur d'applications.
 
 Pour en savoir plus, n'hésitez pas à visiter
 [notre article](http://makina-corpus.com/blog/metier/2016/introduction-progressive-web-apps),
@@ -146,30 +120,33 @@ le dossier de [Google](https://developers.google.com/web/progressive-web-apps/)
 ou celui du
 [Mozilla Developer Network](https://developer.mozilla.org/en-US/Apps/Progressive).
 
-Et si HTML5 nous permet de communiquer avec les périphériques de l'appareil mobile
-(GPS, Appareil Photo, …), l'utilisateur pourra être rassuré de ne pas se voir
-demander une liste impréssionnante d'autorisations pour une application de
-calculatrice.
+HTML5 nous permet d'utiliser [la plupart des fonctionnalités](https://whatwebcando.today/) d'un appareil mobile (GPS, Appareil Photo, bluetooth, etc.).
+
+[![](/blog/metier/2016/images/tout-savoir-avant-creer-application-mobile/lost-users.png)](https://youtu.be/qmE_jpnYXFo?t=96)
+
+Comme précisé plus haut, la publication d'une application native sur un store peut être une étape difficile.
+Avec une PWA, c'est une étape inutile, les utilisateurs qui visitent votre site n'auront pas besoin d'accepter des permissions, de télécharger votre application.
+Et on trouve déjà des sites qui remplacent les *stores* pour référencer les applications PWA comme [https://pwa.rocks/](https://pwa.rocks/).
 
 ![](/blog/metier/2016/images/tout-savoir-avant-creer-application-mobile/toomanypermissions.png)
 
-L'autre avantage de la Progressive Web App est son coût de développement
-qui sera plus proche d'une Web App Responsive que de deux applications natives.
+L'autre avantage de la Progressive Web App est son coût de développement qui sera plus proche d'une Web App Responsive que de deux applications natives.
+
+[Dan Dascalescu](https://twitter.com/dandv) résume très bien la situation [des PWA face aux applications natives](https://medium.com/@dandv/why-progressive-web-apps-vs-native-is-the-wrong-question-to-ask-fb8555addcbb#.e5rg71kjm) :
+
+> It’s not “PWA vs. native”, but rather “PWA vs. [web + native + native]”.
 
 ## Intégrer le monde mobile
 
-Il n'y a pas de bonne réponse à la question *"que dois-je faire pour intégrer
-le monde mobile ?"*.
+Il n'y a pas de bonne réponse à la question *"que dois-je faire pour intégrer le monde mobile ?"*.
 La seule bonne réponse à ce genre de question est :
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">any decent answer to an interesting question begins, &quot;it depends...&quot;</p>&mdash; Kent Beck (@KentBeck) <a href="https://twitter.com/KentBeck/status/596007846887628801">May 6, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Selon votre besoin, nous pourrons vous aider à définir la meilleure stratégie,
-toujours selon [le principe KISS](https://fr.wikipedia.org/wiki/Principe_KISS).
+Selon votre besoin, nous pourrons vous aider à définir la meilleure stratégie, toujours selon [le principe KISS](https://fr.wikipedia.org/wiki/Principe_KISS).
 
-Pourquoi ne pas commencer par vous posez ces quelques questions
-(cliquez sur l'image pour la voir en grand) :
+Pourquoi ne pas commencer par vous posez ces quelques questions (cliquez sur l'image pour la voir en grand) :
 
 [![](/blog/metier/2016/images/tout-savoir-avant-creer-application-mobile/AppMobileBlueprint.jpg)](/blog/metier/2016/images/tout-savoir-avant-creer-application-mobile/AppMobileBlueprint.jpg)
 
