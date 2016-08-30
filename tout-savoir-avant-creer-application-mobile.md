@@ -164,4 +164,4 @@ Pourquoi ne pas commencer par vous posez ces quelques questions (cliquez sur l'i
 
 Une erreur, une question, une remarque,
 n'hesitez pas : [@ticabri](https://twitter.com/ticabri)
-ou directement par une [pull-request](https://github.com/makinacorpus/blog-posts/blob/master/tout-savoir-creer-application-mobile.md).
+ou directement par une [pull-request](https://github.com/makinacorpus/blog-posts/blob/master/tout-savoir-avant-creer-application-mobile.md).
