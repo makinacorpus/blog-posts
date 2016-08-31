@@ -14,7 +14,7 @@ la croissance du mobile en Afrique est passée de 1% en 2000 à 54% en 2012.
 En 2016, la problématique réelle devrait être *"site Web ou application ?"*.
 Nous allons voir ensemble comment faire ce choix.
 
-![](/blog/metier/2016/images/tout-savoir-avant-creer-application-mobile/screenshot-makina-mobile.png)
+<img style="width:65%;display:block;margin:auto" src="/blog/metier/2016/images/tout-savoir-avant-creer-application-mobile/screenshot-makina-mobile.png" >
 
 [Luke Wroblewski](https://twitter.com/lukew) propose une infographie qui se résume assez simplement :
 
@@ -22,7 +22,9 @@ Nous allons voir ensemble comment faire ce choix.
 - l'application sert à fournir une expérience riche ;
 - les deux sont stratégiques.
 
-![](/blog/metier/2016/images/tout-savoir-avant-creer-application-mobile/REACHvsRICH.png)
+<img style="width:65%;display:block;margin:auto" src="/blog/metier/2016/images/tout-savoir-avant-creer-application-mobile/REACHvsRICH.png" >
+
+Dans le schéma ci-dessus, Wroblewski oppose l'utilisation riche des applications (à gauche) à la facilité d'accès du Web (à droite).
 
 Selon la plateforme, on n'atteint pas le même but.
 Étant donné le prix des développements, mieux vaut ne pas se tromper.
@@ -38,27 +40,26 @@ Ils ont changé de stratégie :
 l'application pour Android est devenue gratuite,
 mais il faudra acheter des fonctionnalités si on veut l'utiliser à fond.
 
-![](/blog/metier/2016/images/tout-savoir-avant-creer-application-mobile/app-downloads-and-sales-android-vs-ios.png)
+<img style="width:65%;display:block;margin:auto" src="/blog/metier/2016/images/tout-savoir-avant-creer-application-mobile/app-downloads-and-sales-android-vs-ios.png" >
 
 L'idée étant vraiment d'atteindre le plus de monde possible tout en étant rentable.
 
 Alors quels sont les choix possibles lorsqu'on veut être présent sur mobile ?
 
-## Site Web Reponsive
+## Site Web Responsive
 
-Le minimum vital est de prendre en compte certains principes de *Responsive Design* <sup title="Celui là aussi est un buzz word que j'avais envie d'utiliser, même s'il tombe en désuétude.">[2](#note2)</sup> pour rendre votre site Web accessible depuis un mobile.
-Mais s'il vous faut plus d'interactivité avec l'utilisateur, il faudra trouver une autre solution.
+Le minimum vital est d'appliquer certains principes de *Responsive Design* <sup title="Celui là aussi est un buzz word que j'avais envie d'utiliser, même s'il tombe en désuétude.">[2](#note2)</sup> pour rendre votre site Web accessible depuis un mobile.
 
 _N.B. : L'[article de MDN sur le Responsive Design](https://developer.mozilla.org/en-US/docs/Web_Development/Responsive_Web_design) a été archivé fin 2015, preuve de la désuétude du terme._
 
-Pour autant, il reste important de prendre en compte les différentes tailles d'écran.
-Il faudra adapter les éléments du Site Web en utilisant des pourcentages pour définir leurs tailles,
-il faudra également éviter de charger une image en haute résolution si cette dernière doit s'afficher sur un petit écran basse résolution
-– permettant aussi de soulager la bande passante de l'utilisateur –,
-enfin les fonctionnalités devront aussi être pensée selon le support car les périphériques ne sont pas les mêmes :
-il est facile et rapide d'écrire avec un clavier physique sur un ordinateur fixe,
-mais il est difficile de prendre une photo de son environnement,
-et inversement avec un téléphone mobile.
+Il est indispensable de prendre en compte les différentes tailles d'écran.
+Il faudra adapter les éléments du Site Web en utilisant des pourcentages pour définir leurs tailles.
+Il faudra également éviter de charger une image en haute résolution si cette dernière doit s'afficher sur un petit écran basse résolution
+– permettant aussi de soulager la bande passante de l'utilisateur.
+
+Mais s'il vous faut plus d'interactivité avec l'utilisateur, il faudra peut-être trouver une autre solution.
+Par exemple, il est facile et rapide d'écrire avec un clavier physique sur un ordinateur fixe,
+mais il est difficile de prendre une photo de son environnement ; et inversement avec un téléphone mobile.
 
 ## Applications Natives
 
@@ -87,12 +88,12 @@ Et ce n'est pas toujours simple.
 ## Applications Hybrides
 
 Pour des développeurs Web, il est plus facile de développer des applications avec les technologies du Web : HTML, CSS et JavaScript.
-L'idée principale des solutions hybrides est de profiter des expertises des développeurs Web pour créer des applications mobiles.
+L'idée principale des solutions hybrides est de profiter des expertises des développeurs Web pour [créer des applications mobiles](http://makina-corpus.com/blog/metier/2016/quelle-solution-pour-mon-application-mobile-hybride).
 C'est ce que propose Cordova – et les distributions telles que PhoneGap ou Ionic –
 qui permet d'embarquer [une WebView pleine page](https://cordova.apache.org/docs/en/latest/guide/hybrid/webviews/index.html)
 (souvent une [WebView CrossWalk](https://crosswalk-project.org/)) dans une application native.
 
-Des plugins développés dans le langage du SDK cible (Java pour Android et Swift pour iOS) permettent aux applications hybrides de communiquer avec le reste de l'appareil
+Des plugins développés dans le langage du SDK cible (Java pour Android et Objective-C/Swift pour iOS) permettent aux applications hybrides de communiquer avec le reste de l'appareil
 (accès aux fichiers, aux différents périphériques, appareil photo, puce GPS, etc.).
 
 Mais il faudra toujours passer par les stores et leurs validations parfois obscures et souvent péremptoires.
@@ -122,13 +123,15 @@ ou celui du
 
 HTML5 nous permet d'utiliser [la plupart des fonctionnalités](https://whatwebcando.today/) d'un appareil mobile (GPS, Appareil Photo, bluetooth, etc.).
 
-[![](/blog/metier/2016/images/tout-savoir-avant-creer-application-mobile/lost-users.png)](https://youtu.be/qmE_jpnYXFo?t=96)
+[<img style="width:65%;display:block;margin:auto" src="/blog/metier/2016/images/tout-savoir-avant-creer-application-mobile/lost-users.png" >](https://youtu.be/qmE_jpnYXFo?t=96)
 
 Comme précisé plus haut, la publication d'une application native sur un store peut être une étape difficile.
 Avec une PWA, c'est une étape inutile, les utilisateurs qui visitent votre site n'auront pas besoin d'accepter des permissions, de télécharger votre application.
 Et on trouve déjà des sites qui remplacent les *stores* pour référencer les applications PWA comme [https://pwa.rocks/](https://pwa.rocks/).
 
-![](/blog/metier/2016/images/tout-savoir-avant-creer-application-mobile/toomanypermissions.png)
+Voici par exemple les permissions demandées pour une simple application de lampe de poche :
+
+<img style="width:65%;display:block;margin:auto" src="/blog/metier/2016/images/tout-savoir-avant-creer-application-mobile/toomanypermissions.png" >
 
 L'autre avantage de la Progressive Web App est son coût de développement qui sera plus proche d'une Web App Responsive que de deux applications natives.
 
@@ -148,7 +151,7 @@ Selon votre besoin, nous pourrons vous aider à définir la meilleure stratégie
 
 Pourquoi ne pas commencer par vous posez ces quelques questions (cliquez sur l'image pour la voir en grand) :
 
-[![](/blog/metier/2016/images/tout-savoir-avant-creer-application-mobile/AppMobileBlueprint.jpg)](/blog/metier/2016/images/tout-savoir-avant-creer-application-mobile/AppMobileBlueprint.jpg)
+[<img style="width:65%;display:block;margin:auto" src="/blog/metier/2016/images/tout-savoir-avant-creer-application-mobile/AppMobileBlueprint.jpg" >](/blog/metier/2016/images/tout-savoir-avant-creer-application-mobile/AppMobileBlueprint.jpg)
 
 ---
 
