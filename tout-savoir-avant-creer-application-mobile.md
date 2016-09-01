@@ -149,7 +149,7 @@ La seule bonne réponse à ce genre de question est :
 
 Selon votre besoin, nous pourrons vous aider à définir la meilleure stratégie, toujours selon [le principe KISS](https://fr.wikipedia.org/wiki/Principe_KISS).
 
-Pourquoi ne pas commencer par vous posez ces quelques questions (cliquez sur l'image pour la voir en grand) :
+Pourquoi ne pas commencer par vous poser ces quelques questions (cliquez sur l'image pour la voir en grand) :
 
 [<img style="width:65%;display:block;margin:auto" src="/blog/metier/2016/images/tout-savoir-avant-creer-application-mobile/AppMobileBlueprint.jpg" >](/blog/metier/2016/images/tout-savoir-avant-creer-application-mobile/AppMobileBlueprint.jpg)
 
