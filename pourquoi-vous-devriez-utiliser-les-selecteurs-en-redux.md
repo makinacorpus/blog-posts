@@ -8,8 +8,9 @@ Cela permet à la fois de se protéger des problèmes de concurrence sur la lect
 mais surtout cela offre une séparation des responsabilités très importantes dès lors que votre application grandit.
 Votre composant *Container* peut alors aller lire l'état global (*state*) de votre application et fournir aux composants *Presentationals* les données dont ils ont besoins.
 
-Et c'est là que se trouve notre problème. Souvent le state de l'application ne se présente pas exactement sous le modèle que les composants *Presentationals* attendent.
+Et c'est là que se trouve notre problème. Souvent le *state* de l'application ne se présente pas exactement sous le modèle que les composants *Presentationals* attendent.
 On crée donc dans notre composant *Container* des fonctions pour manipuler le state et renvoyer juste ce qu'il faut.
+
 Et là nous venons de briser la règle de séparation des responsabilités.
 Le *Container*, en plus de faire la connexion avec le *state* Redux commence à manipuler ce dernier (même s'il ne manipule pas dirèctement le *state* mais la copie qu'il reçoit).
 C'est là que rentrent en jeux les *selectors*.
@@ -40,8 +41,9 @@ Cela nous permet d'avoir des composants petits et maintenables facilement, peu i
 ## Pour résumer
 Un *selector* est donc :
 * une fonction prenant en paramètre au moins le *state* de l'application
+* une fonction renvoyant un modèle spécifique à un besoin
 * situé dans le même fichier que *reducers* correspondant
 * combinable avec d'autres *selectors*
-* un moyen d'accéder à des sousparties du *state* de l'application
+* un moyen d'accéder à des sous-parties du *state* de l'application
 * un moyen de reformater des parties du *state* à la volée pour les vues
 * un moyen de conserver un *state* global simple et sans répétition
