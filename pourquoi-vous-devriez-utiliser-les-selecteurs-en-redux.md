@@ -3,20 +3,20 @@
 Lorsque l'on fait des applications en React, on atteint parfois le point où, l'état de notre application grossissant, nous prenons la décision de passer à [Redux](http://redux.js.org/).
 
 ## Pourquoi Redux et les sélecteurs ?
-Basé sur l'architecture Flux, la librairie de [Dan Abrmhov](https://twitter.com/dan_abramov) s'est imposée comme la référence de la communauté dès qu'il s'agit de mettre en place une gestion d'état partagée.
+Basée sur l'architecture Flux, la librairie de [Dan Abrmhov](https://twitter.com/dan_abramov) s'est imposée comme la référence de la communauté dès qu'il s'agit de mettre en place une gestion d'état partagée.
 Cela permet à la fois de se protéger des problèmes de concurrence sur la lecture et l'écriture de l'état de votre application,
-mais surtout cela offre une séparation des responsabilités très importantes dès lors que votre application grandit.
-Votre composant *Container* peut alors aller lire l'état global (*state*) de votre application et fournir aux composants *Presentationals* les données dont ils ont besoins. (Si vous ne connaissez pas la différence, courrez lire ce [superbe article](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0#.ueuyblexk) !)
+mais surtout cela offre une séparation des responsabilités très importante dès lors que votre application grandit.
+Votre composant *Container* peut alors aller lire l'état global (*state*) de votre application et fournir aux composants *Presentationals* les données dont ils ont besoin. (Si vous ne connaissez pas la différence, courrez lire ce [superbe article](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0#.ueuyblexk) !)
 
 Et c'est là que se trouve notre problème. Souvent le *state* de l'application ne se présente pas exactement sous le modèle que les composants *Presentationals* attendent.
 On crée donc dans notre composant *Container* des fonctions pour manipuler le state et renvoyer juste ce qu'il faut.
 
 Et là nous venons de briser la règle de [séparation des responsabilités](https://en.wikipedia.org/wiki/Separation_of_concerns).
-Le *Container*, en plus de faire la connexion avec le *state* Redux commence à manipuler ce dernier (même s'il ne manipule pas dirèctement le *state* mais la copie qu'il reçoit).
+Le *Container*, en plus de faire la connexion avec le *state* Redux commence à manipuler ce dernier (même s'il ne manipule pas directement le *state* mais la copie qu'il reçoit).
 C'est là que rentrent en jeux les *selectors*.
 
-## Qu'est-ce qu'un selecteur ?
-Un *selector* est tout simplement une **fonction qui prend en paramètre tout ou partie du state de l'application et en renvoit une version formatée et/ou réduite, propice aux besoins de nos vues**.
+## Qu'est-ce qu'un sélecteur ?
+Un *selector* est tout simplement une **fonction qui prend en paramètre tout ou partie du state de l'application et en renvoie une version formatée et/ou réduite, propice aux besoins de nos vues**.
 Concrètement un selector très simple pourrait être :
 ```
 const getSubstate = state => state.subState;
@@ -48,7 +48,7 @@ const reduceState = state => state.map(myMapingFunction);
 const getNeededData = state => reduceState(getSubState(state));
 ```
 L'exemple est ici un peu simple mais illustre assez bien l'idée.
-De plus, cela se rapproche pas mal de la phylosophie fonctionelle dont s'inspire Redux.
+De plus, cela se rapproche pas mal de la philosophie fonctionelle dont s'inspire Redux.
 
 ## Pour résumer
 Un *selector* est donc :
