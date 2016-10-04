@@ -68,5 +68,13 @@ Un *selector* est donc :
 * un moyen de conserver un *state* global simple et sans répétition
 
 ## Pour aller plus loins
-Si vous souhaitez aller plus loin avec les *selectors*, la librairie [Reselect](https://github.com/reactjs/reselect) semble être le choix du moment. Elle vous permettra notamment de combiner des sélecteurs très simplement ou d'utiliser la *memoization* pour éviter de recalculer les résultats d'un sélecteur à chaque appel.
+Par soucis de simplicité, nous n'avons dans cet exemple qu'un seul fichier dans lequel se trouvent nos *reducers*.
+Une application à taille réelle les verra probablement séparés en plusieurs fichiers.
+Il devient alors nécessaire de séparer les *selectors* en deux niveaux :
+* les *selectors* au niveau des *sub-reducers* qui font leur traitement en prennant en entrée la portion du state correspondant au reducer se trouvant dans le même fichier.
+* les *selectors* au niveau du *root-reducer* qui font appel aux *selectors* précédents en leur passant la portion du *state* dont ils ont besoin.
+
+Si cela semble confus cette petite vidéo de [egghead.io](https://egghead.io/lessons/javascript-redux-colocating-selectors-with-reducers) va probablement clarifier tout ça.
+
+De même, si vous souhaitez aller plus loin avec les *selectors*, la librairie [Reselect](https://github.com/reactjs/reselect) semble être le choix du moment. Elle vous permettra notamment de combiner des sélecteurs très simplement ou d'utiliser la *memoization* pour éviter de recalculer les résultats d'un sélecteur à chaque appel.
 Et si vous vous sentez un peu perdu, n'hésitez pas à regarder du coté de [notre formation React](https://makina-corpus.com/formations/formation-react) !
