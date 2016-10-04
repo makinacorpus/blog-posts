@@ -13,27 +13,27 @@ On crée donc dans notre composant *Container* des fonctions pour manipuler le s
 
 Et là nous venons de briser la règle de [séparation des responsabilités](https://en.wikipedia.org/wiki/Separation_of_concerns).
 Le *Container*, en plus de faire la connexion avec le *state* Redux commence à manipuler ce dernier (même s'il ne manipule pas directement le *state* mais la copie qu'il reçoit).
-C'est là que rentrent en jeux les *selectors*.
+C'est là que rentrent en jeux les sélecteurs (*selectors*).
 
 ## Qu'est-ce qu'un sélecteur ?
 Un *selector* est tout simplement une **fonction qui prend en paramètre tout ou partie du state de l'application et en renvoie une version formatée et/ou réduite, propice aux besoins de nos vues**.
-Concrètement un selector très simple pourrait être :
+Concrètement un *selector* très simple pourrait être :
 
-```
-const getSubState = state => state.subState;
+``` javascript
+const getToDoList = state => state.toDoList;
 ```
 
 Ce *selector* sera écrit dans le fichier du reducer et exporté, puis importé par les composants *Container* ayant besoin de la donnée formatée.
 Par exemple :
 
-```
+``` javascript
 ...
-import { getSubstate } from '../reducers/my-reducer';
+import { getToDoList } from '../reducers';
 ...
 
 const mapStateToProps = (state) => {
   return {
-    dataNeeded: getSubstate(state)
+    toDoList: getToDoList(state)
   }
 }
 ```
@@ -47,10 +47,10 @@ Au même titre que n'importe quelle fonction, un sélecteur doit être simple, p
 Il devient alors possible d'imaginer des combinaisons de sélecteurs afin d'obtenir le modèle souhaité.
 Par exemple :
 
-```
-const getSubState = state => state.subState;
-const reduceState = state => state.map(myMapingFunction);
-const getNeededData = state => reduceState(getSubState(state));
+``` javascript
+const getToDoList = state => state.toDoList;
+const getDone = state => state.reduce(element => element.done);
+const getDoneTodos = state => getDone(getToDoList(state));
 ```
 
 L'exemple est ici un peu simple mais illustre assez bien l'idée.
