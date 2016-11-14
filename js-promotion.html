@@ -181,19 +181,9 @@
         <p>Vous n'arrivez pas à faire votre choix ?</p>
     </div>
     <div class="row">
-        <div class="span5" style="text-align: right;">
-            <a class="email-link btn lg-btn" href="mailto:contact@makina-corpus.com?subject=Choix d'un framework JavaScript" target="_self" title="Contactez">
-                Contactez-nous
-            </a>
-        </div>
-        <div class="span2">
-            <span style="margin: 0 1rem;">ou</span>
-        </div>
-        <div class="span5" style="text-align: left;">
-            <a class="external-link btn lg-btn" href="https://makinacorpus.github.io/livre-blanc-front-end/" target="_self" title="Livre blanc front-end par Makina Corpus">
-                Lisez notre livre blanc
-            </a>
-        </div>
+        <a class="external-link" href="https://makinacorpus.github.io/livre-blanc-front-end/" target="_self" title="Livre blanc front-end par Makina Corpus">
+            <img src="https://makina-corpus.com/blog/societe/2016/Habillage_page.jpg" alt="Téléchargez notre livre blanc !"/>
+        </a>
     </div>
 </div>
 
@@ -223,15 +213,31 @@
                 JavaScript est une technologie qui passionne nos experts, ils seront ravis de vous aider à travailler sur ces sujets
                 tout en collaborant avec les différentes communautés pour apporter leurs contributions.
             </p>
+            <a class="email-link btn lg-btn" href="mailto:contact@makina-corpus.com?subject=Choix d'un framework JavaScript" target="_self" title="Contactez">
+                Contactez-nous
+            </a>
         </div>
     </div>
 </div>
 
 <style>
+    #content h2 {
+        color: #22191c;
+        font-weight: bolder;
+    }
+
+    #content a:link, #content a:visited {
+        color: #8e9423 !important;
+    }
+
     #content .card {
         box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37);
         vertical-align: middle;
         background: white;
+    }
+
+    #content .card a {
+        color: #22191c !important;
     }
 
     #content .tech-card {
@@ -295,6 +301,20 @@
     #content .tech-list li.tech-card card,
     #content .project-list li.tech-card card {
         display: inline-block;
+    }
+
+    #content a.btn {
+        background: #b1b82e;
+        color: #22191c !important;
+        font-weight: bolder;
+    }
+
+    #content a.btn:hover,
+    #content a.btn:focus,
+    #content a.btn:active,
+    #content a.btn:visited {
+        background: #8e9423 !important;
+        text-decoration: none !important;
     }
 
     #content a.lg-btn, #content .lg-btn {
