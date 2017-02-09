@@ -13,7 +13,7 @@ Mais sur nos serveurs de production, nous ne souhaitons pas installer les outils
 Pour résoudre cette quadrature du développement, il faut bien passer par Git.
 L'idée est de **dédier une branche au déploiement de ces fichiers compilés**. Voici la procédure que nous suivons à Makina Corpus pour contourner ce problème.
 
-### Initialisation de la branche de déploiement.
+## Initialisation de la branche de déploiement.
 
 Dans master, ignorer le dossier des fichiers compilés `.gitignore`
 
@@ -39,7 +39,7 @@ Pousser la branche vers le dépôt distant
 (deploy)$ git push origin deploy
 ```
 
-### Mettre à jour la branche deploy
+## Mettre à jour la branche deploy
 
 Récupérer la dernière version des sources depuis le dépôt distant.
 
