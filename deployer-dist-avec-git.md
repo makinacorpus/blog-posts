@@ -1,4 +1,7 @@
-# Déployer séparément les fichiers css et js compilés avec git
+---
+title: Déployer séparément les fichiers css et js compilés avec git
+url: /blog/metier/2017/deployer-separement-les-fichiers-css-et-js-compiles-avec-git
+---
 
 Comment organiser un dépôt pour pouvoir travailler / merger / brancher sans les fichiers générés, tout en permettant le déploiement via Git de ces fichiers.
 
