@@ -28,6 +28,12 @@ De nombreuses librairies sont disponible pour Vue, le repo [awesome-vue](https:/
 Pour notre projet, nous avons utilisé **vue-router** pour le routing, **vuex** pour architecturer les données (équivalent à redux) et [**element**](http://element.eleme.io/) pour les composants graphiques.
 
 
+## Les tests
+
+Le template que nous avons choisi (webpack) inclu les librairies de test **Karma / Mocha / Chai**. En ayant l'habitude des tests avec React et Jest, la configuration de base paraît un peu frustrante : contrairement à Jest, les diffs de codes n'apparaissent pas aussi clairement, ainsi que les numéro de ligne.
+Il semble également y avoir un soucis de configuration des **sourcemap javascript** avec ce template, ce qui **ne facilite pas vraiment le debug**.
+
+
 ## Points forts
 * Rapide à prendre en main
 * Configuration simplifiée
