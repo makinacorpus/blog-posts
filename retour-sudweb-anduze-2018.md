@@ -10,15 +10,9 @@ version publiée actuellement : http://madz.fr/blog/2018-05-28-sudweb-anduze.htm
 
 SudWeb, édition 2018.
 
-Ça faisait un petit moment que je n'y avais pas mis les pieds.
+Cette année toute l'équipe front Makina y était et nous avons vraiment aprécié !
 
-Depuis l'édition 2014 je crois, du temps où je travaillais encore à l'[ORU-MiP](http://www.orumip.fr).
-
-Et je dois dire que j'ai apprécié.
-
-Beaucoup.
-
-À travers ce premier billet d'humeur, je vais essayer de mettre par écrit
+À travers ce billet d'humeur, je vais essayer de mettre par écrit
 ce que je retiens de cette dernière édition.
 
 En un mot, ***grandi***.
@@ -269,6 +263,21 @@ Et toujours autour d'une bonne bière.
 Et ça, ça fait du bien.
 
 D'être du même métier, mais d'évoquer des problématiques non techniques.
+
+[partie Alexandra]
+
+## Du côté de la Thym
+
+Depuis aussi 2 ans, j'ai la chance de faire partie de la Thym Sud Web. Je dois avouer que cette année, on a eu envie de challenges et de changements, donc on s'est lancé. On a pris le risque [d'aller à la campagne](https://sudweb.fr/blog/2018/un-lieu-plutot-qu-une-ville/) loin des transports en communs et de loger tous les participants. Ça changeait de l'organisation "habituelle" : les chambres, les navettes pour la gare, la captation vidéo que [Thomas](https://methylbro.fr/) de la Thym a géré lui-même.
+
+Et au final, on l'a fait, les participants ont apprécié et surtout ils étaient là, presque aussi nombreux que les années précédentes (et on a dû arrêter les ventes car on aurait pas pu accueillir plus de monde).
+
+## Vers 2019
+
+Et la suite ? Pour qu'elle ait lieu, il est nécessaire qu'il y ait une équipe qui s'en occupe.
+Comme tous les ans, une partie de la Thym part vers d'autres projets. On espère retrouver des bénévoles pour continuer cette belle aventure, si tu as envie de créer un événement pas comme les autres, à ton image, n'hésite pas à nous[Alexandra/Sud web] en faire part.
+
+[partie Alexandra]
 
 ## Pour conclure
 
