@@ -29,7 +29,7 @@ est une équipe de comédiens qui nous invite, tel un miroir,
 à des situations de la vie quotidienne...
 
 La situation évoquée lors du début de Sud Web était une difficulté à
-gérer l'ascenseur émotionel en entreprise, la relation homme-femme,
+gérer l'ascenseur émotionnel en entreprise, la relation homme-femme,
 et aussi la relation chef-employé avec une notion de fragilité.
 
 Exercice délicat et peu évident, mais plusieurs interventions du public
@@ -129,9 +129,8 @@ les développeur-se-s peuvent tricoter, puisque finalement... tout est question
 d'algorithme... Laurence a aussi animé un atelier tricot pour le forum ouvert.
 
 [Casper](https://sudweb.fr/2018/programme/#apprendre-a-apprendre-transmettre-en-perme-habilite-itineraire-nomade-et-fantome),
-à travers une réincarnation en Xavier, a verbalisé ce qu'il a réussi
-à apprendre en terme d'apprentissage collaboratif. Expérience collective
-très intéressante, qui nous a permi d'essayer de faire de la trompette
+à travers une réincarnation en Xavier, a verbalisé ce qu'il a acquis en terme d'apprentissage collaboratif. Expérience collective
+très intéressante, qui nous a permis d'essayer de faire de la trompette
 ou du long board. Mais pas que (regardez la vidéo !)
 
 ## Jour 2, le forum ouvert
@@ -204,7 +203,7 @@ Cette problématique, de gestion d'un projet libre, d'une communauté,
 nous sommes plusieurs à l'avoir, et nous avons échangé sur ce sujet à travers
 un atelier dédié.
 
-Il en est resorti cela :
+Il en est ressorti cela :
 
 ![need code review !](../assets/code-review.jpeg)
 
@@ -222,7 +221,7 @@ Dans sa version actuelle, l'outil permet de mieux connaître nos députés,
 à travers une fiche détaillée, leurs votes sur les différentes lois / amendements
 ainsi que leurs sujets proposés.
 
-Cela a été l'occasion de brainstormer, ou en français, de réaliser
+Cela a été l'occasion de *brainstormer*, ou en français, de réaliser
 un atelier 'remue-méninges' sur ce qu'est l'outil et ce qu'il pourrait
 être.
 
@@ -254,7 +253,7 @@ les speakers, etc., mais il y a aussi la partie cachée.
 
 Celle qui est accessible pour ceux qui peuvent rester,
 ceux qui covoiturent ensemble, ceux qui viennent en vélo à SudWeb depuis
-Saint Étienne, ceux qui jouent au Molkky jusqu'à 2h du matin...
+Saint Étienne, ceux qui jouent au Mölkky jusqu'à 2h du matin...
 
 Et puis les discussions avec d'autres acteurs du web,
 sur des sujets toujours humains, rarement technique.
@@ -291,7 +290,7 @@ et merci à celles & ceux qui sont venus à Sud Web 2018,
 car c'est cet ensemble d'ingrédients qui fait que Sud Web
 2018 a cette saveur unique et inimitable.
 
-Qu'ils en soient ici tou-te-s remerciés.
+Qu'ils en soient ici tou•te•s remerciés.
 
 C'est aussi grâce à Sud Web 2018 que je me lance
 dans la mise en place de ce blog.
