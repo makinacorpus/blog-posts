@@ -1,6 +1,5 @@
 ---
 title: Utiliser Jitsi
-description:  On a de plus en plus l'occasion de communiquer grâce à Jitsi Meet. Voici quelques astuces qui peuvent rendre son utilisation un peu plus confortable pour tous.
 url: /blog/metier/2020/utiliser-jitsi
 ---
 
