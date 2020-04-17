@@ -16,12 +16,14 @@ reste utilisable avec [Firefox][], mais cela a un **impact négatif** sur la
 qualité audio et vidéo de tous les participants à la conférence.
 
 Pour plus d'informations, voir l'article [Vidéoconférences : Firefox et Jitsi
-travaillent à un meilleur support][nextinpact]
+travaillent à un meilleur support][nextinpact].
 
 En attendant donc que [Firefox][] et Jitsi règlent ce désagrément, privilégier
 Chromium, ou bien la solution suivante...
 
 [nextinpact]: https://www.nextinpact.com/brief/videoconferences---firefox-et-jitsi-travaillent-a-un-meilleur-support-11906.htm
+
+----
 
 ## Jitsi Meet Electron
 
@@ -39,11 +41,11 @@ Cet outil utilise par défaut le serveur principal de Jitsi, mais autorise
 
 Jitsi propose également [sa propre version Desktop][jitsi-desktop], mais
 celle-ci nécessite l'installation de nombreuses dépendances supplémentaires. Je
-n'ai pas l'occasion pour le moment de la tester.
+n'ai pas eu l'occasion pour le moment de la tester.
+
+----
 
 ## Astuces
-
-*(Fonctionnent aussi bien avec la version web et la version Eletron de Jitsi.)*
 
 ### La vidéo
 
@@ -60,19 +62,24 @@ envoie.
 De même, si on est nombreux, il n'est pas utile de garder son micro activé en
 permanence. On peut donc prendre l'habitude de **couper le micro**.
 
-### Au clavier
+----
+
+## Au clavier
 
 L'activation et la désactivation de l'audio / vidéo peuvent se faire via les
-boutons du milieu, au bas de l'interface. Cette bascule peut également se faire
-à l'aide des touches du clavier : **M** pour le micro, et **V** pour la vidéo.
-
-#### Push-to-talk
+boutons du milieu, au bas de l'interface. Mais cette bascule peut également se
+faire rapidement à l'aide des touches du clavier : **M** pour le micro, et **V**
+pour la vidéo.
 
 Il est également possible de rester appuyé sur la **touche espace** et ainsi
-être en mode **push-to-talk**. *(Que le micro soit initialement activé ou non,
-la touche espace coupe le micro lorsqu'on la relâche)*
+être en mode **push-to-talk** *(Que le micro soit initialement activé ou non,
+la touche espace coupe le micro lorsqu'on la relâche)*.
 
-### Lever la main
+La plupart des raccourcis clavier peuvent être retrouvé grâce à la touche **?**.
+
+----
+
+## Lever la main
 
 À cause de la latence entre émission et réception, il est parfois compliqué
 d'interagir à plusieurs personnes. On se coupe la parole ou on commence à parler
@@ -91,15 +98,17 @@ parole, au moment opportun, à celles qui se sont manifestées ainsi.
 Cette fonctionnalité est accessible via un bouton en bas à gauche de
 l'interface, ou bien via la touche **R**.
 
-### Mosaïque
+----
+
+## Mosaïque
 
 Dès lors qu'il y a plus de 3 participants et qu'il n'y a rien à *voir* (pas de
 diffusion vidéo), le **mode mosaïque**, accessible via un bouton en bas à
 droite de l'interface, permet de se rendre compte plus facilement de qui
 s'exprime à quel moment.
 
-[^1]: En interne, [Electron][] utilise un pseudo-Chromium.  
-      Pour plus de détail, voir le site d'[Electron][]
+[^1]: En interne, [Electron][] utilise un pseudo-Chromium.
+      Pour plus de détail, voir le site d'[Electron][].
 
 [^2]: À condition que soit activée la fonctionnalité *External API* sur le
       serveur.
@@ -112,6 +121,8 @@ s'exprime à quel moment.
 [Jitsi Meet]: https://meet.jit.si/
 [jitsi-desktop]: https://desktop.jitsi.org/Main/Download
 
----
+----
 
-Une erreur, une question, une remarque, n'hesitez pas : [@mab_](https://twitter.com/mab_) ou directement par une [pull-request](https://github.com/makinacorpus/blog-posts/blob/master/utiliser-jitsi.md).
+Une erreur, une question, une remarque, n'hesitez pas :
+[@mab_](https://twitter.com/mab_) ou directement par une
+[pull-request](https://github.com/makinacorpus/blog-posts/blob/master/utiliser-jitsi.md).
