@@ -7,11 +7,11 @@ url: /blog/metier/2020/utiliser-jitsi
 [Jitsi Meet][]. Voici quelques astuces qui peuvent rendre son utilisation un peu
 plus confortable pour tous.*
 
-## Eviter Firefox
+## Éviter Firefox
 
 C'est dommage de, pour une fois, ne pas valoriser cet **excellent navigateur**,
-mais un détail du protocol utilisé par Jitsi n'a pas encore été implémenté, et
-ne sera pas inclu dans [Firefox][] avant le mois de juin. En attendant, Jitsi
+mais un détail du protocole utilisé par Jitsi n'a pas encore été implémenté, et
+ne sera pas inclus dans [Firefox][] avant le mois de juin. En attendant, Jitsi
 reste utilisable avec [Firefox][], mais cela a un **impact négatif** sur la
 qualité audio et vidéo de tous les participants à la conférence.
 
@@ -38,7 +38,7 @@ Cet outil utilise par défaut le serveur principal de Jitsi, mais autorise
 ### Note
 
 Jitsi propose également [sa propre version Desktop][jitsi-desktop], mais
-celle-ci necessite l'installation de nombreuses dépendances suplémentaires. Je
+celle-ci nécessite l'installation de nombreuses dépendances supplémentaires. Je
 n'ai pas l'occasion pour le moment de la tester.
 
 ## Astuces
@@ -69,8 +69,8 @@ boutons du milieu, au bas de l'interface. Cette bascule peut également se faire
 #### Push-to-talk
 
 Il est également possible de rester appuyé sur la **touche espace** et ainsi
-être en mode **push-to-talk**. *(Que le micro soit initialement activée ou non,
-la touche espace coupe le micro lorsqu'on la relache)*
+être en mode **push-to-talk**. *(Que le micro soit initialement activé ou non,
+la touche espace coupe le micro lorsqu'on la relâche)*
 
 ### Lever la main
 
@@ -79,7 +79,7 @@ d'interagir à plusieurs personnes. On se coupe la parole ou on commence à parl
 en même temps, plusieurs fois de suite.
 
 Dans d'autres cas, par exemple au cours d'une présentation par l'un des
-participant et on ne sait pas si on peut l'interompre ou non pour poser une
+participant, on ne sait pas si on peut l'interrompre ou non pour poser une
 question.
 
 Jitsi propose une fonctionnalité permettant de **lever la main**. La ou les
@@ -96,12 +96,14 @@ l'interface, ou bien via la touche **R**.
 Dès lors qu'il y a plus de 3 participants et qu'il n'y a rien à *voir* (pas de
 diffusion vidéo), le **mode mosaïque**, accessible via un bouton en bas à
 droite de l'interface, permet de se rendre compte plus facilement de qui
-s'exprime à quelle moment.
+s'exprime à quel moment.
 
 [^1]: En interne, [Electron][] utilise un pseudo-Chromium.  
       Pour plus de détail, voir le site d'[Electron][]
-[^2]: À condition de soit activée la fonctionnalité *External API* sur le
+
+[^2]: À condition que soit activée la fonctionnalité *External API* sur le
       serveur.
+
 [^3]: Ce réglage n'est disponible qu'en dehors du mode peer-to-peer qui s'active
       automatiquement lorsqu'il n'y a que deux participants.
 
