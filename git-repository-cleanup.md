@@ -6,7 +6,7 @@ url: /blog/metier/2016/nettoyer-un-depot-git
 
 Pour diverses raisons (erreurs, mauvaise gestion, …),
 il arrive qu'un dépôt git prenne une taille démesurée,
-ce qui peu vite devenir handicapant.
+ce qui peut vite devenir handicapant.
 Il devient donc parfois nécessaire de faire un peu de ménage
 et retirer complètement certains fichiers du dépôt
 peut être une solution efficace.
@@ -19,19 +19,23 @@ pour faire en sorte de l'en retirer complètement.
 Cette ré-écriture complète de l'historique rendra le dépôt
 **incompatible** avec tout autre clone du même projet.
 
-_Cette solution peu également permettre de retirer d'un projet
+_Cette solution peut également permettre de retirer d'un projet
 des fichiers contenant des données sensibles ou confidentielles._
 
-### À partir d'un dépôt local, à jour :
+### À partir d'un dépôt local, à jour
 
-* Retirer tous les remotes
+* Retirer tous les remotes. Par exemple, pour retirer le remote `origin` :
+
 ```bash
 git remote rm origin
 ```
+
 * Supprimer toutes les références du fichier à effacer :
+
 ```bash
 git filter-branch --index-filter 'git rm --cached --ignore-unmatch fichier_a_effacer.zip -- --all'
 ```
+
 >   * `filter-branch` est la commande permettant de ré-écrire la branche courante.
 >     * `--index-filter` permet d'accélérer le traitement en traitant l'index au lieu des fichiers du disque.
 >   * `rm` supprime.
@@ -54,3 +58,5 @@ git gc --aggressive --prune=now
 
 
 Pour une version plus détaillée, vous pouvez vous référer à la [version française du livre <u>Pro Git</u>](http://git-scm.com/book/fr/v2/Les-tripes-de-Git-Maintenance-et-r%C3%A9cup%C3%A9ration-de-donn%C3%A9es#Suppression-d’objets) accessible librement en ligne.
+
+Vous pouvez aussi bien sûr venir suivre notre <a class="btn internal-link" href="resolveuid/fff05459238e4b2496347fb37a012234" target="_self" title="">formation Git</a> !
