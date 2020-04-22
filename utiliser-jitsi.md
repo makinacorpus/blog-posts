@@ -37,6 +37,8 @@ outil de visioconférence sans avoir à passer par un navigateur web[^1].
 Cet outil utilise par défaut le serveur principal de Jitsi, mais autorise
 également à configurer n'importe quel serveur Jitsi[^2].
 
+![Aperçu de l'interface de Jitsi Meet Electron](https://raw.githubusercontent.com/jitsi/jitsi-meet-electron/master/screenshot.png)
+
 ### Note
 
 Jitsi propose également [sa propre version Desktop][jitsi-desktop], mais
@@ -57,10 +59,14 @@ Dans la paramètres, on peut ajuster la **qualité de la vidéo**[^3]. Ce régla
 n'a d'influence que sur les flux vidéos qu'on reçoit, et non sur celui qu'on
 envoie.
 
+![Barre d'outils de Jitsi mettant en avant le bouton contrôlant la vidéo](https://res.cloudinary.com/ma-b/image/upload/v1587574661/blog-posts/video_mqhwwu.png)
+
 ### L'audio
 
 De même, si on est nombreux, il n'est pas utile de garder son micro activé en
 permanence. On peut donc prendre l'habitude de **couper le micro**.
+
+![Barre d'outils de Jitsi mettant en avant le bouton contrôlant le son](https://res.cloudinary.com/ma-b/image/upload/v1587574661/blog-posts/audio_sinz0l.png)
 
 ----
 
@@ -76,6 +82,8 @@ Il est également possible de rester appuyé sur la **touche espace** et ainsi
 la touche espace coupe le micro lorsqu'on la relâche)*.
 
 La plupart des raccourcis clavier peuvent être retrouvé grâce à la touche **?**.
+
+![Capture d'écran de la liste des raccourcis clavier](https://res.cloudinary.com/ma-b/image/upload/v1587574895/blog-posts/clavier_hw7vpp.png)
 
 ----
 
@@ -93,6 +101,8 @@ Jitsi propose une fonctionnalité permettant de **lever la main**. La ou les
 personnes menant les échanges, animant la discussion peuvent alors donner la
 parole, au moment opportun, à celles qui se sont manifestées ainsi.
 
+![Barre d'outils de Jitsi mettant en avant le bouton permettant de lever la main](https://res.cloudinary.com/ma-b/image/upload/v1587574661/blog-posts/lever-la-main_kga6gj.png)
+
 *Penser à baisser la main une fois qu'on s'est exprimé.*
 
 Cette fonctionnalité est accessible via un bouton en bas à gauche de
@@ -106,6 +116,8 @@ Dès lors qu'il y a plus de 3 participants et qu'il n'y a rien à *voir* (pas de
 diffusion vidéo), le **mode mosaïque**, accessible via un bouton en bas à
 droite de l'interface, permet de se rendre compte plus facilement de qui
 s'exprime à quel moment.
+
+![Barre d'outils de Jitsi mettant en avant le bouton contrôlant de mode d'affichage](https://res.cloudinary.com/ma-b/image/upload/v1587574661/blog-posts/mosaique_ixmcof.png)
 
 [^1]: En interne, [Electron][] utilise un pseudo-Chromium.
       Pour plus de détail, voir le site d'[Electron][].
