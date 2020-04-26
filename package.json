@@ -1,0 +1,22 @@
+{
+  "name": "mkc-blog-posts",
+  "version": "0.1.0",
+  "description": "Makina Corpus blog posts",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "push": "push-md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makinacorpus/blog-posts.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/makinacorpus/blog-posts/issues"
+  },
+  "homepage": "https://github.com/makinacorpus/blog-posts",
+  "dependencies": {
+    "push-md": "^2.2.1"
+  }
+}
