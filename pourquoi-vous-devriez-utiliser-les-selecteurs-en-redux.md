@@ -1,3 +1,7 @@
+---
+url: /blog/metier/2016/pourquoi-vous-devriez-utiliser-les-selecteurs-avec-redux
+---
+
 # Pourquoi vous devriez utiliser les sélecteurs avec Redux
 
 Lorsque l'on fait des applications avec React, on atteint parfois le point où, l'état de notre application grossissant, on prend la décision d'ajouter [Redux](http://redux.js.org/).

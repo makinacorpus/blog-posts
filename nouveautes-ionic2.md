@@ -1,3 +1,7 @@
+---
+url: /blog/metier/2015/les-nouveautes-dionic-2-retours-de-langularconnect
+---
+
 # Les nouveautés d'Ionic 2 - Retours de l'AngularConnect
 
 Au sein des nombreuses conférences d'AngularConnect, nous avons eu droit à l'annonce de la version 2 du framework hybride mobile le plus utilisé. Avec plus d'un million d'applications créées, Ionic a su écouter ses utilisateurs et nous revient avec de belles nouveautés.

@@ -1,3 +1,7 @@
+---
+url: /blog/metier/2016/repatelier-gpg
+---
+
 Nous avons accueilli Ludovic Hirlimann, développeur chez Mozilla dans l'équipe Thunderbird, pour nous parler de OpenGPG. Autour d'un repas, il nous a présenté les intérêts des signatures sécurisées PGP, l'utilisation de l'outil GPG pour gérer son trousseau de clés et fait une petite démonstration de signature croisée de clés.
 
 # Pourquoi signer ?

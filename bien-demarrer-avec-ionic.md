@@ -1,3 +1,7 @@
+---
+url: /blog/metier/2015/bien-demarrer-avec-ionic
+---
+
 # Bien démarrer avec Ionic
 
 ## Historique

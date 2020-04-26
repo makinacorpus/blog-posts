@@ -1,3 +1,7 @@
+---
+url: /blog/metier/2015/bien-demarrer-avec-javascript
+---
+
 # Bien démarrer avec javascript
 
 JavaScript a mauvaise presse auprès des développeurs des autres langages. J'ai vu de nombreux développeurs râler quand ils ont dû en écrire quelques instructions. Il faut bien avouer que [certains comportements ne sont pas intuitifs (merci à Gary Bernhardt)](https://www.destroyallsoftware.com/talks/wat). Cependant, le constat est clair : lire la doc du langage permet de comprendre bien des choses dans ce langage qui anime toutes nos pages web.

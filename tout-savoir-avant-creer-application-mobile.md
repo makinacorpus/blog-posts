@@ -1,3 +1,7 @@
+---
+url: /blog/metier/2016/tout-savoir-avant-de-creer-son-application-mobile
+---
+
 # Tout savoir avant de créer son application mobile
 
 Peut-être lisez-vous ce billet sur un téléphone mobile.

@@ -1,3 +1,7 @@
+---
+url: /blog/societe/2016/geotrek-bilan-dune-annee-pleine-de-nouveautes
+---
+
 # Geotrek v2, les nouveautés
 
 Les années 2015 et 2016 a été riches en améliorations pour Geotrek. C'est une véritable satisfaction de voir un projet open-source avancer autant !

@@ -1,3 +1,7 @@
+---
+url: /blog/metier/2016/decouvrir-le-service-worker
+---
+
 # Découvrir le Service Worker
 
 ## Si vous n'en avez jamais entendu parlé

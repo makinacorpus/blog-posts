@@ -1,3 +1,7 @@
+---
+url: /blog/metier/2016/quelle-solution-pour-mon-application-mobile-hybride
+---
+
 # Quelle solution pour mon application hybride ?
 
 Le Javascript avance, et vite. C'est un peu le leitmotiv du développement front-end depuis quelques années. Une conséquence est cela est là : l'essor des applications mobiles hybrides et des solutions diverses et variées y répondant.

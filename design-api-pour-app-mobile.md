@@ -1,3 +1,7 @@
+---
+url: /blog/metier/2016/design-dapi-pour-app-mobile
+---
+
 # Les besoins spécifiques de l'app mobile
 
 Chez Makina Corpus, nous faisons des [applications mobiles hybrides](http://edit.makina-corpus.com/blog/metier/2016/quelle-solution-pour-mon-application-mobile-hybride).

@@ -1,3 +1,7 @@
+---
+url: /blog/metier/2016/construire-une-application-hybride-mobile-et-desktop-avec-cordova-et-electron
+---
+
 # Construire une application hybride mobile et desktop avec Cordova et Electron
 
 On connait maintenant bien les [applications mobiles hybrides](http://makina-corpus.com/blog/metier/2016/quelle-solution-pour-mon-application-mobile-hybride), mais il est également possible de créer une application desktop grâce [Electron](http://electron.atom.io/) à partir de langages web.
