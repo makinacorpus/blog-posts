@@ -30,7 +30,7 @@ Chromium, ou bien la solution suivante...
 [Electron][] est une *coquille* qui permet de transformer une *application web*
 en application multi-plateforme autonome.
 
-[Jitsi Meet Eletron](https://github.com/jitsi/jitsi-meet-electron) est donc une
+[Jitsi Meet Electron](https://github.com/jitsi/jitsi-meet-electron) est donc une
 version de [Jitsi Meet][] enrobée par [Electron][], qui permet d'utiliser cet
 outil de visioconférence sans avoir à passer par un navigateur web[^1].
 
@@ -135,6 +135,6 @@ s'exprime à quel moment.
 
 ----
 
-Une erreur, une question, une remarque, n'hesitez pas :
+Une erreur, une question, une remarque, n'hésitez pas :
 [@mab_](https://twitter.com/mab_) ou directement par une
 [pull-request](https://github.com/makinacorpus/blog-posts/blob/master/utiliser-jitsi.md).
