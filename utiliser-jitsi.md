@@ -59,14 +59,14 @@ Dans la paramètres, on peut ajuster la **qualité de la vidéo**[^3]. Ce régla
 n'a d'influence que sur les flux vidéos qu'on reçoit, et non sur celui qu'on
 envoie.
 
-![Barre d'outils de Jitsi mettant en avant le bouton contrôlant la vidéo](https://res.cloudinary.com/ma-b/image/upload/v1587574661/blog-posts/video_mqhwwu.png)
+![Barre d'outils de Jitsi mettant en avant le bouton contrôlant la vidéo](https://res.cloudinary.com/ma-b/image/upload/v1588171292/blog-posts/video_xh7dld.png)
 
 ### L'audio
 
 De même, si on est nombreux, il n'est pas utile de garder son micro activé en
 permanence. On peut donc prendre l'habitude de **couper le micro**.
 
-![Barre d'outils de Jitsi mettant en avant le bouton contrôlant le son](https://res.cloudinary.com/ma-b/image/upload/v1587574661/blog-posts/audio_sinz0l.png)
+![Barre d'outils de Jitsi mettant en avant le bouton contrôlant le son](https://res.cloudinary.com/ma-b/image/upload/v1588171292/blog-posts/audio_hppmcs.png)
 
 ----
 
@@ -101,7 +101,7 @@ Jitsi propose une fonctionnalité permettant de **lever la main**. La ou les
 personnes menant les échanges, animant la discussion peuvent alors donner la
 parole, au moment opportun, à celles qui se sont manifestées ainsi.
 
-![Barre d'outils de Jitsi mettant en avant le bouton permettant de lever la main](https://res.cloudinary.com/ma-b/image/upload/v1587574661/blog-posts/lever-la-main_kga6gj.png)
+![Barre d'outils de Jitsi mettant en avant le bouton permettant de lever la main](https://res.cloudinary.com/ma-b/image/upload/v1588171292/blog-posts/leverlamain_hmfieu.png)
 
 *Penser à baisser la main une fois qu'on s'est exprimé.*
 
@@ -117,7 +117,7 @@ diffusion vidéo), le **mode mosaïque**, accessible via un bouton en bas à
 droite de l'interface, permet de se rendre compte plus facilement de qui
 s'exprime à quel moment.
 
-![Barre d'outils de Jitsi mettant en avant le bouton contrôlant de mode d'affichage](https://res.cloudinary.com/ma-b/image/upload/v1587574661/blog-posts/mosaique_ixmcof.png)
+![Barre d'outils de Jitsi mettant en avant le bouton contrôlant de mode d'affichage](https://res.cloudinary.com/ma-b/image/upload/v1588171292/blog-posts/mosaique_qm4ta1.png)
 
 [^1]: En interne, [Electron][] utilise un pseudo-Chromium.
       Pour plus de détail, voir le site d'[Electron][].
