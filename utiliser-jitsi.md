@@ -3,17 +3,18 @@ title: Utiliser Jitsi
 url: /blog/metier/2020/utiliser-jitsi
 ---
 
-*Dans le contexte actuel, les individus ont de plus en plus l'occasion de communiquer grâce à
-[Jitsi Meet][]. Voici quelques astuces qui peuvent rendre son utilisation
-plus confortable et pour tout le monde.*
+*Dans le contexte actuel, les individus ont de plus en plus l'occasion de
+communiquer grâce à [Jitsi Meet][]. Voici quelques astuces qui peuvent rendre
+son utilisation plus confortable et pour tout le monde.*
 
 ## Éviter Firefox
 
-Une fois encore, il est dommage que Jitsi ne valorise pas cet **excellent navigateur**.
-En effet, un détail du protocole utilisé par Jitsi n'a pas encore été implémenté et celui-ci 
-ne sera pas inclus dans [Firefox][] avant le mois de juin. En attendant, Jitsi
-reste utilisable avec [Firefox][], mais son utilisation a un **impact négatif** sur la
-qualité audio et vidéo de tous les participants à la conférence.
+Une fois encore, il est dommage que Jitsi ne valorise pas cet **excellent
+navigateur**. En effet, un détail du protocole utilisé par Jitsi n'a pas encore
+été implémenté et celui-ci ne sera pas inclus dans [Firefox][] avant le mois de
+juin. En attendant, Jitsi reste utilisable avec [Firefox][], mais son
+utilisation a un **impact négatif** sur la qualité audio et vidéo de tous les
+participants à la conférence.
 
 + INFOS : l'article [Vidéoconférences : Firefox et Jitsi
 travaillent à un meilleur support][nextinpact].
@@ -51,9 +52,9 @@ n'ai pas eu l'occasion pour le moment de la tester.
 
 ### La vidéo
 
-Si les utilisateurs n'ont pas besoin forcement de se voir les uns les autres, il est utile de
-**désactiver sa propre caméra**. Cela permet une grosse économie de bande
-passante et ainsi de garantir une meilleure qualité audio.
+Si les utilisateurs n'ont pas besoin forcement de se voir les uns les autres, il
+est utile de **désactiver sa propre caméra**. Cela permet une grosse économie de
+bande passante et ainsi de garantir une meilleure qualité audio.
 
 Dans les paramètres, **qualité de la vidéo**[^3] peut être ajuster. Ce réglage
 influence uniquement les flux vidéos que l'internaute reçoit et non sur les flux
@@ -89,15 +90,17 @@ La plupart des raccourcis clavier peuvent être retrouvés grâce à la touche *
 
 ## Lever la main
 
-À cause de la latence entre émission et réception, l'intéraction à plusieurs personnes est parfois compliquée. Les utilisateurs se coupent la parole ou commencent à parler
-en même temps.
+À cause de la latence entre émission et réception, l'intéraction à plusieurs
+personnes est parfois compliquée. Les utilisateurs se coupent la parole ou
+commencent à parler en même temps.
 
-Dans d'autres cas comme au cours d'une présentation par l'un des participants, les autres utilisateurs ne savent pas s'il est possible de l'interrompre (ou non), il en est de même pour poser une
-question.
+Dans d'autres cas comme au cours d'une présentation par l'un des participants,
+les autres utilisateurs ne savent pas s'il est possible de l'interrompre (ou
+non), il en est de même pour poser une question.
 
-Pour celà Jitsi propose une fonctionnalité permettant de **lever la main**. La ou les
-personnes menant les échanges et animant la discussion peuvent alors donner la
-parole, au moment opportun, à celles qui se sont manifestées ainsi.
+Pour celà Jitsi propose une fonctionnalité permettant de **lever la main**. La
+ou les personnes menant les échanges et animant la discussion peuvent alors
+donner la parole, au moment opportun, à celles qui se sont manifestées ainsi.
 
 ![Barre d'outils de Jitsi mettant en avant le bouton permettant de lever la main](https://res.cloudinary.com/ma-b/image/upload/v1588171292/blog-posts/leverlamain_hmfieu.png)
 
