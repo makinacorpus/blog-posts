@@ -92,10 +92,10 @@ La plupart des raccourcis clavier peuvent être retrouvés grâce à la touche *
 À cause de la latence entre émission et réception, l'intéraction à plusieurs personnes est parfois compliquée. Les utilisateurs se coupent la parole ou commencent à parler
 en même temps.
 
-Dans d'autres cas comme au cours d'une présentation par l'un des participants, les autres utilisateurs ne savent pas s'il est possible de interrompre (ou non), il en est de même pour poser une
+Dans d'autres cas comme au cours d'une présentation par l'un des participants, les autres utilisateurs ne savent pas s'il est possible de l'interrompre (ou non), il en est de même pour poser une
 question.
 
-Jitsi propose une fonctionnalité permettant de **lever la main**. La ou les
+Pour celà Jitsi propose une fonctionnalité permettant de **lever la main**. La ou les
 personnes menant les échanges et animant la discussion peuvent alors donner la
 parole, au moment opportun, à celles qui se sont manifestées ainsi.
 
