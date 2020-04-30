@@ -3,23 +3,23 @@ title: Utiliser Jitsi
 url: /blog/metier/2020/utiliser-jitsi
 ---
 
-*Dans le contexte actuel, on a de plus en plus l'occasion de communiquer grâce à
-[Jitsi Meet][]. Voici quelques astuces qui peuvent rendre son utilisation un peu
-plus confortable pour tous.*
+*Dans le contexte actuel, les individus ont de plus en plus l'occasion de communiquer grâce à
+[Jitsi Meet][]. Voici quelques astuces qui peuvent rendre son utilisation
+plus confortable et pour tout le monde.*
 
 ## Éviter Firefox
 
-C'est dommage de, pour une fois, ne pas valoriser cet **excellent navigateur**,
-mais un détail du protocole utilisé par Jitsi n'a pas encore été implémenté, et
+Une fois encore, il est dommage que Jitsi ne valorise pas cet **excellent navigateur**.
+En effet, un détail du protocole utilisé par Jitsi n'a pas encore été implémenté et celui-ci 
 ne sera pas inclus dans [Firefox][] avant le mois de juin. En attendant, Jitsi
-reste utilisable avec [Firefox][], mais cela a un **impact négatif** sur la
+reste utilisable avec [Firefox][], mais son utilisation a un **impact négatif** sur la
 qualité audio et vidéo de tous les participants à la conférence.
 
-Pour plus d'informations, voir l'article [Vidéoconférences : Firefox et Jitsi
++ INFOS : l'article [Vidéoconférences : Firefox et Jitsi
 travaillent à un meilleur support][nextinpact].
 
 En attendant donc que [Firefox][] et Jitsi règlent ce désagrément, privilégier
-Chromium, ou bien la solution suivante...
+Chromium, ou bien la solution suivante :
 
 [nextinpact]: https://www.nextinpact.com/brief/videoconferences---firefox-et-jitsi-travaillent-a-un-meilleur-support-11906.htm
 
@@ -27,8 +27,8 @@ Chromium, ou bien la solution suivante...
 
 ## Jitsi Meet Electron
 
-[Electron][] est une *coquille* qui permet de transformer une *application web*
-en application multi-plateforme autonome.
+[Electron][] est une *coquille* pour transformer une *application web*
+en application multi-plateformes autonome.
 
 [Jitsi Meet Electron](https://github.com/jitsi/jitsi-meet-electron) est donc une
 version de [Jitsi Meet][] enrobée par [Electron][], qui permet d'utiliser cet
@@ -42,7 +42,7 @@ Cet outil utilise par défaut le serveur principal de Jitsi, mais autorise
 ### Note
 
 Jitsi propose également [sa propre version Desktop][jitsi-desktop], mais
-celle-ci nécessite l'installation de nombreuses dépendances supplémentaires. Je
+elle nécessite l'installation de nombreuses dépendances supplémentaires. Je
 n'ai pas eu l'occasion pour le moment de la tester.
 
 ----
@@ -51,13 +51,13 @@ n'ai pas eu l'occasion pour le moment de la tester.
 
 ### La vidéo
 
-Si on a pas besoin forcement de se voir les uns les autres, il est utile de
+Si les utilisateurs n'ont pas besoin forcement de se voir les uns les autres, il est utile de
 **désactiver sa propre caméra**. Cela permet une grosse économie de bande
-passante, et ainsi de garantir une meilleure qualité audio.
+passante et ainsi de garantir une meilleure qualité audio.
 
-Dans la paramètres, on peut ajuster la **qualité de la vidéo**[^3]. Ce réglage
-n'a d'influence que sur les flux vidéos qu'on reçoit, et non sur celui qu'on
-envoie.
+Dans les paramètres, **qualité de la vidéo**[^3] peut être ajuster. Ce réglage
+influence uniquement les flux vidéos que l'internaute reçoit et non sur les flux
+envoyés.
 
 ![Barre d'outils de Jitsi mettant en avant le bouton contrôlant la vidéo](https://res.cloudinary.com/ma-b/image/upload/v1588171292/blog-posts/video_xh7dld.png)
 
@@ -73,15 +73,15 @@ permanence. On peut donc prendre l'habitude de **couper le micro**.
 ## Au clavier
 
 L'activation et la désactivation de l'audio / vidéo peuvent se faire via les
-boutons du milieu, au bas de l'interface. Mais cette bascule peut également se
+boutons du milieu, au bas de l'interface. Cette bascule peut également se
 faire rapidement à l'aide des touches du clavier : **M** pour le micro, et **V**
 pour la vidéo.
 
 Il est également possible de rester appuyé sur la **touche espace** et ainsi
 être en mode **push-to-talk** *(Que le micro soit initialement activé ou non,
-la touche espace coupe le micro lorsqu'on la relâche)*.
+la touche espace coupe le micro lorsqu'elle est relâchée)*.
 
-La plupart des raccourcis clavier peuvent être retrouvé grâce à la touche **?**.
+La plupart des raccourcis clavier peuvent être retrouvés grâce à la touche **?**.
 
 ![Capture d'écran de la liste des raccourcis clavier](https://res.cloudinary.com/ma-b/image/upload/v1587574895/blog-posts/clavier_hw7vpp.png)
 
@@ -89,16 +89,14 @@ La plupart des raccourcis clavier peuvent être retrouvé grâce à la touche **
 
 ## Lever la main
 
-À cause de la latence entre émission et réception, il est parfois compliqué
-d'interagir à plusieurs personnes. On se coupe la parole ou on commence à parler
-en même temps, plusieurs fois de suite.
+À cause de la latence entre émission et réception, l'intéraction à plusieurs personnes est parfois compliquée. Les utilisateurs se coupent la parole ou commencent à parler
+en même temps.
 
-Dans d'autres cas, par exemple au cours d'une présentation par l'un des
-participant, on ne sait pas si on peut l'interrompre ou non pour poser une
+Dans d'autres cas comme au cours d'une présentation par l'un des participants, les autres utilisateurs ne savent pas s'il est possible de interrompre (ou non), il en est de même pour poser une
 question.
 
 Jitsi propose une fonctionnalité permettant de **lever la main**. La ou les
-personnes menant les échanges, animant la discussion peuvent alors donner la
+personnes menant les échanges et animant la discussion peuvent alors donner la
 parole, au moment opportun, à celles qui se sont manifestées ainsi.
 
 ![Barre d'outils de Jitsi mettant en avant le bouton permettant de lever la main](https://res.cloudinary.com/ma-b/image/upload/v1588171292/blog-posts/leverlamain_hmfieu.png)
@@ -106,15 +104,15 @@ parole, au moment opportun, à celles qui se sont manifestées ainsi.
 *Penser à baisser la main une fois qu'on s'est exprimé.*
 
 Cette fonctionnalité est accessible via un bouton en bas à gauche de
-l'interface, ou bien via la touche **R**.
+l'interface ou bien via la touche **R**.
 
 ----
 
 ## Mosaïque
 
 Dès lors qu'il y a plus de 3 participants et qu'il n'y a rien à *voir* (pas de
-diffusion vidéo), le **mode mosaïque**, accessible via un bouton en bas à
-droite de l'interface, permet de se rendre compte plus facilement de qui
+diffusion vidéo), le **mode mosaïque** - accessible via un bouton en bas à
+droite de l'interface - permet de se rendre compte plus facilement de qui
 s'exprime à quel moment.
 
 ![Barre d'outils de Jitsi mettant en avant le bouton contrôlant de mode d'affichage](https://res.cloudinary.com/ma-b/image/upload/v1588171292/blog-posts/mosaique_qm4ta1.png)
