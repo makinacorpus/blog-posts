@@ -124,7 +124,7 @@ Drupal et son apparition effective sur le site, il ne devrait pas y avoir trop d
 
 # Pour conclure
 
-Une fois le problème de menu résolu, je pense que tout est aujourd'hui retenu pour faire un site Drupal découplé. Le couplage avec Gatsby semble très
+Une fois le problème de menu résolu, je pense que tout est aujourd'hui réuni pour faire un site Drupal découplé. Le couplage avec Gatsby semble très
 prometteur - *spoiler alert* - il est bien possible que cela soit l'architecture retenu pour le prochain site de Makina Corpus.
 
 En résumé avec le couple Drupal/Gatsby :
