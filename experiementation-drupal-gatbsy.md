@@ -80,7 +80,7 @@ pour réaliser un frontoffice.
 
 L'utilisation est donc à priori compliqué, mais finalement, se passer de Views est-ce vraiment grave ? ;)
 
-# Cycle de publication
+# Le cycle de publication
 
 A la différence d'un Drupal classique, ici, l'étape de génération du site statique rend la publication de contenu *pseudo-temps réel*.
 
